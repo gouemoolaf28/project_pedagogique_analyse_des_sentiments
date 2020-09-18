@@ -1,0 +1,2890 @@
+<!DOCTYPE html>
+<html class="no-js" lang="fr">
+ <head>
+  <title>
+   ESTIAM est elle une école recommandable ?  par LilianeGuelfi   - OpenClassrooms
+  </title>
+  <script type="text/javascript">
+   var App = {};
+            App.startTime = (new Date()).getTime();
+
+            var _sf_startpt = App.startTime;
+  </script>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta charset="utf-8"/>
+  <script type="text/javascript">
+   (window.NREUM||(NREUM={})).loader_config={licenseKey:"90dc06697a",applicationID:"20302107"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(c(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(5),c=e(6),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,n){s[n]=i(p+n,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(l+"tracer",[u.now(),e,t],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&d("lcp",[t[t.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var n=Math.round(e.timeStamp),t={type:e.type};n<=p.now()?t.fid=p.now()-n:n>p.offset&&n<=Date.now()?(n-=p.offset,t.fid=p.now()-n):n=p.now(),g=!0,d("timing",["fi",n,t])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(4),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e){function n(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,n,!1)}n.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],5:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],6:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],7:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function t(t,r,i,o){if(!p.aborted||o){e&&e(t,r,i);for(var a=n(i),c=v(t),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[t]];return d&&d.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(t)}function y(e,n){u(e,function(e,t){n=n||"feature",w[t]=n,n in s||(s[n]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(5),s={},d={},p=n.exports=i();p.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(w,function(n,t){e[n]||(e[n]=t)});var t=a();f("mark",["onload",t+E.offset],null,"api"),f("timing",["load",t]);var r=l.createElement("script");r.src="https://"+e.agent,n.parentNode.insertBefore(r,n)}}function i(){"complete"===l.readyState&&o()}function o(){f("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(c=Math.max((new Date).getTime(),c))-E.offset}var c=(new Date).getTime(),f=e("handle"),u=e(5),s=e("ee"),d=e(3),p=window,l=p.document,m="addEventListener",v="attachEvent",g=p.XMLHttpRequest,y=g&&g.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:g,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var h=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1177.min.js"},b=g&&y&&y[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:c,now:a,origin:h,features:{},xhrWrappable:b,userAgent:d};e(1),e(2),l[m]?(l[m]("DOMContentLoaded",o,!1),p[m]("load",r,!1)):(l[v]("onreadystatechange",i),p[v]("onload",r)),f("mark",["firstbyte",c],null,"api");var x=0,O=e(7)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(6),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof t?t(r,a):t||{}}catch(u){p([u,"",[r,a,i],c])}s(n+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(n+"err",[r,a,d],c),d}finally{s(n+"end",[r,a,f],c)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<n.length;f++)c=n[f],a=e[c],r(a)||(e[c]=t(a,u?c+i:i,o,c))}function s(t,r,i){if(!f||n){var o=f;f=!0;try{e.emit(t,r,i,n)}catch(a){p([a,t,r,i])}f=o}}function d(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){p([r])}for(var i in e)c.call(e,i)&&(n[i]=e[i]);return n}function p(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);
+  </script>
+  <meta content="/bundles/common/images/928bd40a-9507-4495-977d-ace7d554190b.png" name="msapplication-TileImage"/>
+  <meta content="OpenClassrooms" name="application-name"/>
+  <meta content="#7451eb" name="msapplication-TileColor"/>
+  <meta content="/bundles/common/images/928bd40a-9507-4495-977d-ace7d554190b.png" name="msapplication-TileImage"/>
+  <meta content="#7451eb" name="theme-color"/>
+  <meta content="fr_FR" property="og:locale">
+   <link href="/bundles/common/css/jquery-ui-47cbf8fc.css" media="all" rel="stylesheet" type="text/css"/>
+   <link href="/bundles/common/css/master-3183f297.css" media="all" rel="stylesheet" type="text/css"/>
+   <link href="/bundles/common/css/old-24a05c2d.css" media="all" rel="stylesheet" type="text/css"/>
+   <link href="/bundles/common/css/syntaxhl-fb83473f.css" media="all" rel="stylesheet" type="text/css"/>
+   <link href="/bundles/old-common-2c532773.css" media="all" rel="stylesheet" type="text/css"/>
+   <link href="/bundles/thread/css/main-a26a30f5.css" media="all" rel="stylesheet" type="text/css"/>
+   <script>
+    /*! modernizr 3.3.1 (Custom Build) | MIT *
+    * https://modernizr.com/download/?-cssfilters-touchevents-setclasses !*/
+    !function(e,n,t){function o(e,n){return typeof e===n}function r(){var e,n,t,r,s,i,a;for(var l in C)if(C.hasOwnProperty(l)){if(e=[],n=C[l],n.name&&(e.push(n.name.toLowerCase()),n.options&&n.options.aliases&&n.options.aliases.length))for(t=0;t<n.options.aliases.length;t++)e.push(n.options.aliases[t].toLowerCase());for(r=o(n.fn,"function")?n.fn():n.fn,s=0;s<e.length;s++)i=e[s],a=i.split("."),1===a.length?Modernizr[a[0]]=r:(!Modernizr[a[0]]||Modernizr[a[0]]instanceof Boolean||(Modernizr[a[0]]=new Boolean(Modernizr[a[0]])),Modernizr[a[0]][a[1]]=r),g.push((r?"":"no-")+a.join("-"))}}function s(e){var n=w.className,t=Modernizr._config.classPrefix||"";if(x&&(n=n.baseVal),Modernizr._config.enableJSClass){var o=new RegExp("(^|\\s)"+t+"no-js(\\s|$)");n=n.replace(o,"$1"+t+"js$2")}Modernizr._config.enableClasses&&(n+=" "+t+e.join(" "+t),x?w.className.baseVal=n:w.className=n)}function i(){return"function"!=typeof n.createElement?n.createElement(arguments[0]):x?n.createElementNS.call(n,"http://www.w3.org/2000/svg",arguments[0]):n.createElement.apply(n,arguments)}function a(){var e=n.body;return e||(e=i(x?"svg":"body"),e.fake=!0),e}function l(e,t,o,r){var s,l,u,f,p="modernizr",c=i("div"),d=a();if(parseInt(o,10))for(;o--;)u=i("div"),u.id=r?r[o]:p+(o+1),c.appendChild(u);return s=i("style"),s.type="text/css",s.id="s"+p,(d.fake?d:c).appendChild(s),d.appendChild(c),s.styleSheet?s.styleSheet.cssText=e:s.appendChild(n.createTextNode(e)),c.id=p,d.fake&&(d.style.background="",d.style.overflow="hidden",f=w.style.overflow,w.style.overflow="hidden",w.appendChild(d)),l=t(c,e),d.fake?(d.parentNode.removeChild(d),w.style.overflow=f,w.offsetHeight):c.parentNode.removeChild(c),!!l}function u(e,n){return!!~(""+e).indexOf(n)}function f(e){return e.replace(/([a-z])-([a-z])/g,function(e,n,t){return n+t.toUpperCase()}).replace(/^-/,"")}function p(e,n){return function(){return e.apply(n,arguments)}}function c(e,n,t){var r;for(var s in e)if(e[s]in n)return t===!1?e[s]:(r=n[e[s]],o(r,"function")?p(r,t||n):r);return!1}function d(e){return e.replace(/([A-Z])/g,function(e,n){return"-"+n.toLowerCase()}).replace(/^ms-/,"-ms-")}function m(n,o){var r=n.length;if("CSS"in e&&"supports"in e.CSS){for(;r--;)if(e.CSS.supports(d(n[r]),o))return!0;return!1}if("CSSSupportsRule"in e){for(var s=[];r--;)s.push("("+d(n[r])+":"+o+")");return s=s.join(" or "),l("@supports ("+s+") { #modernizr { position: absolute; } }",function(e){return"absolute"==getComputedStyle(e,null).position})}return t}function h(e,n,r,s){function a(){p&&(delete k.style,delete k.modElem)}if(s=o(s,"undefined")?!1:s,!o(r,"undefined")){var l=m(e,r);if(!o(l,"undefined"))return l}for(var p,c,d,h,v,y=["modernizr","tspan","samp"];!k.style&&y.length;)p=!0,k.modElem=i(y.shift()),k.style=k.modElem.style;for(d=e.length,c=0;d>c;c++)if(h=e[c],v=k.style[h],u(h,"-")&&(h=f(h)),k.style[h]!==t){if(s||o(r,"undefined"))return a(),"pfx"==n?h:!0;try{k.style[h]=r}catch(g){}if(k.style[h]!=v)return a(),"pfx"==n?h:!0}return a(),!1}function v(e,n,t,r,s){var i=e.charAt(0).toUpperCase()+e.slice(1),a=(e+" "+j.join(i+" ")+i).split(" ");return o(n,"string")||o(n,"undefined")?h(a,n,r,s):(a=(e+" "+E.join(i+" ")+i).split(" "),c(a,n,t))}function y(e,n,o){return v(e,t,t,n,o)}var g=[],C=[],S={_version:"3.3.1",_config:{classPrefix:"",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,n){var t=this;setTimeout(function(){n(t[e])},0)},addTest:function(e,n,t){C.push({name:e,fn:n,options:t})},addAsyncTest:function(e){C.push({name:null,fn:e})}},Modernizr=function(){};Modernizr.prototype=S,Modernizr=new Modernizr;var w=n.documentElement,x="svg"===w.nodeName.toLowerCase(),_=S._config.usePrefixes?" -webkit- -moz- -o- -ms- ".split(" "):["",""];S._prefixes=_;var b="CSS"in e&&"supports"in e.CSS,T="supportsCSS"in e;Modernizr.addTest("supports",b||T);var z=S.testStyles=l;Modernizr.addTest("touchevents",function(){var t;if("ontouchstart"in e||e.DocumentTouch&&n instanceof DocumentTouch)t=!0;else{var o=["@media (",_.join("touch-enabled),("),"heartz",")","{#modernizr{top:9px;position:absolute}}"].join("");z(o,function(e){t=9===e.offsetTop})}return t});var P="Moz O ms Webkit",j=S._config.usePrefixes?P.split(" "):[];S._cssomPrefixes=j;var E=S._config.usePrefixes?P.toLowerCase().split(" "):[];S._domPrefixes=E;var N={elem:i("modernizr")};Modernizr._q.push(function(){delete N.elem});var k={style:N.elem.style};Modernizr._q.unshift(function(){delete k.style}),S.testAllProps=v,S.testAllProps=y,Modernizr.addTest("cssfilters",function(){if(Modernizr.supports)return y("filter","blur(2px)");var e=i("a");return e.style.cssText=_.join("filter:blur(2px); "),!!e.style.length&&(n.documentMode===t||n.documentMode>9)}),r(),s(g),delete S.addTest,delete S.addAsyncTest;for(var A=0;A<Modernizr._q.length;A++)Modernizr._q[A]();e.Modernizr=Modernizr}(window,document);
+   </script>
+   <link href="/icon-white-trans.png?v=2" rel="icon" sizes="144x144"/>
+   <link href="/favicon.ico?cb8fc3d7" rel="shortcut icon">
+    <script type="text/javascript">
+     var App = {
+        startTime: (new Date()).getTime(),
+        pageGenerationDate: 1599663975000
+    };
+
+    App.user = {
+                    locale: 'fr',
+            language: 'fr',
+            country: 'FR',
+            isPremium: false,
+            isMentor: false,
+            anonymous: true
+            };
+
+    App.preferences = {
+        debug: false,
+        assetVersion: 'cb8fc3d7',
+        contactMail: 'hello\u0040openclassrooms.com',
+        contactPhone: '\u002B33\u00201\u002080\u002088\u002080\u002030',
+        phoneNumbersByCountry: {"uk":{"contact":"+44 16 1768 1880"},"ca":{"contact":"+1 929-376-0101"},"us":{"contact":"+1 929-376-0101"},"fr":{"contact":"+33 1 80 88 80 30","b2b_contact":"+33 1 80 88 80 40"},"es":{"contact":"+33 1 80 88 80 30"}},
+        adyenPublicKey: '10001\u007C889EBFD4D434B82683E21DCA26E77C3E20E0EE09A5ECE3830B0ED51F2FA721A2F7E9EC871C6AB9A1E12C4492F4717673047757E02C5256D8E265CD51E413E5EFCCFEAC41B39C662A424ADC13EE187C38C372A7FCCEC1EA5DF841989437D78B252A8EB51008E60BB55B1E55A7A80DE1A9D60D998C128A576BFAE1DDB97D514AF0A073AEDDE84CEE40D1F8F6ECE85D0FFA50C95C06DB274021C1371376C6EB16561FD65C5E2704B570A7504D617D0F3820F176A0609F6162BDF5890533289FDC3DA7DB03B50BB3BD60A613E1FF72060F22987627E8F1A29F0128A94EC4C8FF7CF6B7AB9558D8433BF86D7A388AB927641CD6C02689139CEE3AAC9ACBFFE83806CB',
+        cdnImage: true,
+        layer: {
+            appId: 'layer\u003A\/\/\/apps\/staging\/7757c53a\u002Db2ba\u002D11e5\u002Db2a6\u002D2584730b1501',
+            identityProviderUrl: '\/ajax\/conversations\/get\u002Didentity\u002Dtoken'
+        },
+        algolia: {
+            appId: 'JGRXRFVQM0',
+            apiKey: 'cd1e2696005d97e99dc7b882297b09cf',
+            indexName: 'prod_v2_COURSES_fr'
+        },
+        google: {
+            appId: '132418960718\u002Djdnmpug3g9e6ub2p41ergcci1492qh82.apps.googleusercontent.com',
+            maps: {
+                apiKey: 'AIzaSyDQKLz54HFMtUf9Yo8cWkgR8Af3eU2HAiE'
+            },
+        },
+        application: {
+            form: {
+              funnelUrl: 'https\u003A\/\/www.tfaforms.com\/responses\/processor',
+              fields: {"firstname":"tfa_6","lastname":"tfa_4","email":"tfa_2","path_id":"tfa_138","source_name":"tfa_165","consent":"tfa_150","user_locale":"tfa_125","userId":"tfa_3","gender":"tfa_10","user_study_motivation":"tfa_171","diploma_level":"tfa_30","user_diploma":"tfa_173","language_proficiency_fr":"tfa_40","language_proficiency_en":"tfa_42","ha_addressline_1":"tfa_16","ha_city":"tfa_18","ha_zip_code":"tfa_24","ha_state":"tfa_163","ha_country":"tfa_22","professional_status":"tfa_94","public_employment_agency_id":"tfa_159","user_public_employment_agency_certificate":"tfa_167","user_pe_advisor_email":"tfa_199","disabled_worker":"tfa_67","veteran":"tfa_73","athlete":"tfa_79","refugee":"tfa_85","rsa":"tfa_91","are":"tfa_175","api":"tfa_177","cui":"tfa_179","can_work_in_france":"tfa_142","user_resume":"tfa_1","online_cv":"tfa_157","user_has_mobility":"tfa_193","user_mobility_departamental":"tfa_187","user_mobility_national":"tfa_189","user_mobility_regional":"tfa_191","user_mobility_cities":"tfa_195","work_location_1":"tfa_128","work_location_2":"tfa_130","work_location_3":"tfa_132","work_location_4":"tfa_134","work_location_5":"tfa_136","career_motivation":"tfa_123","has_computer":"tfa_43","has_mic":"tfa_49","has_webcam":"tfa_169","has_fast_internet_connection":"tfa_55","has_quiet_space":"tfa_61","has_online_courses_xp":"tfa_118","has_online_courses_xp_text":"tfa_121","found_a_company":"tfa_146","date_of_birth":"tfa_9","phone_number":"tfa_126","user_desired_start_date":"tfa_161","tfa_dbFormId":"tfa_dbFormId","tfa_dbControl":"tfa_dbControl"}
+            },
+        },
+        facebook: {
+            appId: '277769842283905',
+        },
+        apple: {
+          appId: 'com.openclassrooms.apple\u002Dsign\u002Din',
+        },
+        routes: {
+            COURSE_EVENT: '/components/courses/:courseId',
+            COURSE_PART_EVENT: '/components/courses/:courseId/parts/:partId',
+
+            ACCEPT_COOKIE: '\/ajax\/components\/user\u002Daccept\u002Dconsent\u002Dcookie'
+        },
+
+                    };
+
+    App.preferences.navigationPreference = {
+            };
+
+    App.preferences.modules = {
+        'smiley': {
+            basePath: '/bundles/common/images/smiley/'
+        }
+    };
+
+    try {
+        App.api = JSON.parse("\u007B\u0022anonymous\u0022\u003A\u007B\u0022client_id\u0022\u003A\u0022807605274673228623802113\u0022,\u0022client_secret\u0022\u003A\u00221\u0022\u007D,\u0022logged\u0022\u003A\u007B\u0022client_id\u0022\u003A\u00227xPFDY3bB3ruX44z\u0022\u007D,\u0022urls\u0022\u003A\u007B\u0022authorize\u0022\u003A\u0022https\u003A\\\/\\\/openclassrooms.com\\\/oauth2\\\/authorize\u0022,\u0022root\u0022\u003A\u0022https\u003A\\\/\\\/api.openclassrooms.com\u0022,\u0022proxy\u0022\u003A\u0022\u0022\u007D\u007D");
+    } catch (e) {
+        App.api = {};
+    }
+
+    App.notifications = {};
+    App.scripts = [];
+
+    if (App.user.id) {
+        (function(){
+            var userData = { userId: App.user.id };
+
+            if (App.user.premiumType) {
+                userData.status = (App.user.premiumType === 'Premium Solo') ? 'premium solo student' : 'path student';
+            } else {
+                userData.status = 'free student';
+            }
+
+            if (App.user.isMentor) {
+                userData.status = App.user.premiumType ? (userData.status + '|mentor') : 'mentor';
+            }
+
+            if (!window.dataLayer) {
+              return;
+            }
+            window.dataLayer.push(userData);
+        })();
+    }
+    </script>
+   </link>
+  </meta>
+ </head>
+ <body class="oc-body oldsdz forum">
+  <ul class="skipLink">
+   <li>
+    <a class="skipLink__item" href="#mainContent">
+     Aller au contenu
+    </a>
+   </li>
+   <li>
+    <a class="skipLink__item" href="#footerChangeLanguage">
+     Choisir la langue
+    </a>
+   </li>
+   <li id="skipLink_search">
+    <a class="skipLink__item" href="#algolia-search-input">
+     Aller à la recherche
+    </a>
+   </li>
+  </ul>
+  <script id="_EVENTS-IDENTIFY" type="application/json">
+  </script>
+  <script id="_EVENTS-PAGE" type="application/json">
+   {"type":"page","integrations":{"Blueshift":false,"HubSpot":false},"properties":{"pageCategory":"forum"}}
+  </script>
+  <div id="predictiveCrmTopBanner">
+  </div>
+  <script id="fundingMechanisms" type="application/json">
+   {
+        "fundingMechanisms": [{"country":"FR","eligibleCountries":["FR","RE","GP","MQ","PF","GF","YT","NC","BL","PM","WF"],"id":24,"name":"Action de Formation Pr\u00e9alable au Recrutement","shortName":"AFPR","type":"scholarship"},{"country":"FR","eligibleCountries":["FR","RE","GP","MQ","PF","GF","YT","NC","BL","PM","WF"],"id":25,"name":"Aide collective priv\u00e9e \u00e0 la formation","shortName":"Aide priv\u00e9e","type":"scholarship"},{"country":"FR","eligibleCountries":["FR","RE","GP","MQ","PF","GF","YT","NC","BL","PM","WF"],"id":20,"name":"Aide Individuelle \u00e0 la Formation","shortName":"AIF","type":"scholarship"},{"country":"FR","eligibleCountries":["FR","RE","GP","MQ","PF","GF","YT","NC","BL","PM","WF"],"id":28,"name":"Aide individuelle priv\u00e9e \u00e0 la formation","shortName":"Aide priv\u00e9e","type":"scholarship"},{"country":"FR","eligibleCountries":["FR","RE","GP","MQ","PF","GF","YT","NC","BL","PM","WF"],"id":21,"name":"Compte Personnel de Formation","shortName":"CPF","type":"scholarship"},{"country":"FR","eligibleCountries":["FR","RE","GP","MQ","PF","GF","YT","NC","BL","PM","WF"],"id":15,"name":"Contrat d'apprentissage","shortName":"Apprentissage","type":"apprenticeship"},{"country":"FR","eligibleCountries":["FR","RE","GP","MQ","PF","GF","YT","NC","BL","PM","WF"],"id":16,"name":"Contrat de professionnalisation","shortName":"Contrat pro","type":"apprenticeship"},{"country":"FR","eligibleCountries":["FR","RE","GP","MQ","PF","GF","YT","NC","BL","PM","WF"],"id":19,"name":"P\u00e9riode de professionnalisation","shortName":"P\u00e9riode pro","type":"apprenticeship"},{"country":"FR","eligibleCountries":["FR","RE","GP","MQ","PF","GF","YT","NC","BL","PM","WF"],"id":23,"name":"Pr\u00e9paration Op\u00e9rationnelle \u00e0 l'Emploi Collective","shortName":"POEC","type":"scholarship"},{"country":"FR","eligibleCountries":["FR","RE","GP","MQ","PF","GF","YT","NC","BL","PM","WF"],"id":17,"name":"Pr\u00e9paration Op\u00e9rationnelle \u00e0 l'Emploi Individuelle","shortName":"POEI","type":"apprenticeship"},{"country":"FR","eligibleCountries":["FR","RE","GP","MQ","PF","GF","YT","NC","BL","PM","WF"],"id":22,"name":"Programme R\u00e9gional de Formation pour l'Emploi","shortName":"PRFE","type":"scholarship"},{"country":"FR","eligibleCountries":["FR","RE","GP","MQ","PF","GF","YT","NC","BL","PM","WF"],"id":18,"name":"Reconversion ou promotion par l'alternance","shortName":"Pro-A","type":"apprenticeship"}]
+    }
+  </script>
+  <div id="oc-header">
+   <div class="oc-mainHeader oc-mainHeader--notLogged oc-mainHeader--skeleton">
+    <div class="grid-wrapper">
+     <div class="grid-inner">
+      <div style="display: flex;">
+       <div class="oc-mainHeaderLogo oc-mainHeaderLogo--skeleton">
+        <a class="oc-mainHeaderLogo__link" href="/fr/">
+         <svg fill="none" height="51" viewbox="0 0 668 51" width="668" xmlns="http://www.w3.org/2000/svg">
+          <title>
+           OpenClassrooms.com
+          </title>
+          <path d="M406.011 35.018c0 2.82-.71 5.641-2.368 7.991-1.659 2.35-3.79 4.23-6.87 5.64-3.079 1.41-6.869 2.116-11.37 2.116-3.79 0-7.343-.47-10.897-1.41-3.553-.94-6.395-2.35-8.527-3.996l7.106-8.46c1.421.705 2.843 1.175 4.501 1.88 2.842.94 5.448 1.41 8.054 1.41 4.974 0 7.58-1.41 7.58-3.995 0-1.41-.711-2.35-2.132-3.056-1.421-.705-3.79-1.41-6.87-2.115-3.553-.705-6.395-1.645-8.764-2.585s-4.264-2.35-6.159-4.23c-1.658-1.88-2.606-4.701-2.606-7.991 0-3.056.711-5.641 2.369-7.991 1.658-2.35 3.79-4.23 6.87-5.64 3.079-1.41 6.869-2.116 11.37-2.116 3.079 0 6.159.47 9.001 1.175 3.08.705 5.685 1.88 7.817 3.055l-7.343 8.696c-3.316-1.41-6.633-2.115-9.712-2.115-2.606 0-4.501.47-5.685 1.175-1.185.705-1.895 1.88-1.895 3.056 0 1.41.711 2.35 2.132 2.82 1.421.705 3.79 1.41 6.869 2.115a49.4 49.4 0 0 1 8.765 2.585c2.369.94 4.264 2.35 6.159 4.23 1.658 1.646 2.605 4.466 2.605 7.756zm261.989 0c0 2.82-.711 5.641-2.369 7.991s-3.79 4.23-6.869 5.64c-3.08 1.41-6.87 2.116-11.371 2.116-3.79 0-7.343-.47-10.896-1.41s-6.396-2.35-8.528-3.996l7.107-8.46c1.421.705 2.842 1.175 4.501 1.88 2.842.94 5.448 1.41 8.053 1.41 4.975 0 7.581-1.41 7.581-3.995 0-1.41-.711-2.35-2.132-3.056-1.422-.705-3.791-1.41-6.87-2.115a49.361 49.361 0 0 1-8.764-2.585c-2.369-.94-4.264-2.35-6.159-4.23-1.658-1.88-2.606-4.701-2.606-7.991 0-3.056.711-5.641 2.369-7.991 1.658-2.35 3.79-4.23 6.869-5.64 3.08-1.41 6.87-2.116 11.371-2.116 3.079 0 6.158.47 9.001 1.175 3.079.705 5.685 1.88 7.817 3.055l-7.343 8.696c-3.317-1.41-6.633-2.115-9.712-2.115-2.606 0-4.501.47-5.685 1.175-1.185.705-1.896 1.88-1.896 3.056 0 1.41.711 2.35 2.132 2.82 1.422.705 3.791 1.41 6.87 2.115a49.361 49.361 0 0 1 8.764 2.585c2.369.94 4.264 2.35 6.159 4.23 1.895 1.646 2.606 4.466 2.606 7.756zM87.882 19.037c0 3.76-.947 6.816-2.605 9.4-1.659 2.586-4.027 4.701-7.107 6.111s-6.87 2.116-10.896 2.116H59.22v12.69H45.955V.706h21.319c4.264 0 7.817.705 10.896 2.115 3.08 1.41 5.448 3.526 7.107 6.346 1.895 3.055 2.605 6.346 2.605 9.87zm-13.265 0c0-2.35-.71-3.995-2.132-5.17s-3.316-1.88-6.159-1.88h-7.343v14.336h7.343c2.606 0 4.738-.706 6.16-1.88s2.131-3.056 2.131-5.406zm55.904 20.212v10.576h-37.19V1.175h36.242v10.576h-23.214v8.226h18.476v10.341h-18.476v8.93zm50.218-38.074v48.65h-10.896l-20.609-25.853v25.853h-13.028V1.175h10.896l20.609 25.853V1.175zm84.092 37.604v10.81h-32.926V.94h13.265v37.604h19.661zm56.851 11.046h-13.739l-3.553-9.401h-19.661l-3.553 9.4h-13.502l20.608-48.649h13.029zM300.6 30.083l-5.922-15.512-5.922 15.512zm62.536 4.935c0 2.82-.71 5.641-2.369 7.991-1.658 2.35-3.79 4.23-6.869 5.64-3.08 1.41-6.87 2.116-11.37 2.116-3.79 0-7.344-.47-10.897-1.41s-6.396-2.35-8.527-3.996l7.106-8.46c1.421.705 2.842 1.175 4.501 1.88 2.842.94 5.448 1.41 8.054 1.41 4.974 0 7.58-1.41 7.58-3.995 0-1.41-.711-2.35-2.132-3.056-1.421-.705-3.79-1.41-6.87-2.115-3.553-.705-6.395-1.645-8.764-2.585s-4.264-2.35-6.159-4.23c-1.658-1.88-2.606-4.701-2.606-7.991 0-3.056.711-5.641 2.369-7.991 1.658-2.35 3.79-4.23 6.87-5.64 3.079-1.41 6.869-2.116 11.37-2.116 3.079 0 6.159.47 9.001 1.175 3.08.705 5.448 1.88 7.817 3.055l-7.343 8.696c-3.316-1.41-6.633-2.115-9.712-2.115-2.606 0-4.501.47-5.685 1.175-1.185.705-1.895 1.88-1.895 3.056 0 1.41.71 2.35 2.132 2.82 1.421.705 3.79 1.41 6.869 2.115a49.4 49.4 0 0 1 8.765 2.585c2.368.94 4.263 2.35 6.158 4.23 1.659 1.646 2.606 4.466 2.606 7.756zm-322.63-9.636c0 13.867-11.37 25.383-25.583 25.383-5.685 0-10.66-1.88-14.923-4.936l8.528-10.105c1.895 1.175 4.027 1.88 6.395 1.88 6.633 0 12.081-5.406 12.081-11.986 0-6.581-5.448-11.987-12.08-11.987-2.37 0-4.501.705-6.396 1.88L0 5.407C4.264 2.35 9.475.47 14.923.47 29.136.235 40.506 11.516 40.506 25.383zm177.66 10.341l8.528 10.107c-4.264 3.055-9.476 4.935-14.924 4.935-13.976 0-25.583-11.281-25.583-25.383C186.187 11.517 197.557 0 211.77 0c5.685 0 10.66 1.88 14.924 4.936l-8.528 10.105c-1.895-1.175-4.027-1.88-6.396-1.88-6.632 0-12.081 5.406-12.081 11.986 0 6.581 5.449 11.987 12.081 11.987 2.369.47 4.501-.235 6.396-1.41zm236.169 14.102l-10.423-15.042c3.079-1.41 5.211-3.525 6.87-6.11 1.658-2.585 2.605-5.876 2.605-9.401 0-3.76-.947-6.816-2.605-9.636-1.659-2.82-4.027-4.7-7.107-6.346-3.079-1.41-6.869-2.115-10.896-2.115H411.46v48.65h13.028V37.134h6.159l8.764 12.69zm-29.847-37.839h7.58c2.606 0 4.738.705 6.159 1.88s2.132 3.056 2.132 5.17c0 2.351-.711 3.996-2.132 5.171s-3.316 1.88-6.159 1.88h-7.58zM483.945.235c13.976 0 25.583 11.281 25.583 25.382S498.157 51 483.945 51c-13.976 0-25.583-11.281-25.583-25.383S469.732.235 483.945.235zm-13.029 25.147c0 7.051 5.685 12.692 12.792 12.692 7.106 0 12.791-5.64 12.791-12.692s-5.685-12.69-12.791-12.69c-6.87 0-12.792 5.64-12.792 12.69zM538.901.235c13.976 0 25.583 11.281 25.583 25.382S553.114 51 538.901 51c-13.976 0-25.583-11.281-25.583-25.383S524.925.235 538.901.235zm-12.792 25.147c0 7.051 5.685 12.692 12.792 12.692 7.106 0 12.791-5.64 12.791-12.692s-5.685-12.69-12.791-12.69c-7.107 0-12.792 5.64-12.792 12.69zm70.353 6.816L580.828 1.175h-10.896v48.65h11.607V28.438l11.607 21.387h6.87l11.607-21.387v21.387h11.607V1.175h-10.897z">
+          </path>
+         </svg>
+        </a>
+       </div>
+       <nav aria-label="Menu principal" class="oc-mainHeader__navWrapper" role="navigation">
+        <div class="oc-mainHeader__linksWrapper">
+         <div class="oc-mainHeader__navLinkWrapper">
+          <a class="oc-mainHeader__navLink" data-event="click|Header|Paths" href="/fr/paths">
+           Parcours
+          </a>
+         </div>
+         <div class="oc-mainHeader__navLinkWrapper">
+          <a class="oc-mainHeader__navLink" data-event="click|Header|Courses" href="/fr/courses">
+           Cours
+          </a>
+         </div>
+         <div class="oc-mainHeader__navLinkWrapper">
+          <a class="oc-mainHeader__navLink" data-event="click|Header|Apprenticeship" href="/fr/apprenticeship">
+           Alternance
+          </a>
+         </div>
+         <div class="oc-mainHeader__navLinkWrapper--separator">
+         </div>
+         <div class="oc-mainHeader__navLinkWrapper">
+          <a class="oc-mainHeader__navLink" data-event="click|Header|Business" href="/fr/business">
+           Business
+          </a>
+         </div>
+        </div>
+       </nav>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!--[if lt IE 10]>
+<div class="alertMessage">
+    <span class="bullet bullet--small bullet--orange alertMessage__icon"> <i class="icon-exclamation"></i></span>
+    <p class="alertMessage__text">
+        Vous utilisez un navigateur obsolète, veuillez le <a href="https://browser-update.org/update.html">mettre à jour</a>.
+    </p>
+</div>
+<![endif]-->
+  <div class="alertMessage" id="ie-ten-disclaimer" style="display:none">
+   <span class="bullet bullet--small bullet--orange alertMessage__icon">
+    <i class="icon-exclamation">
+    </i>
+   </span>
+   <p class="alertMessage__text">
+    Vous utilisez un navigateur obsolète, veuillez le
+    <a href="https://browser-update.org/update.html">
+     mettre à jour
+    </a>
+    .
+   </p>
+  </div>
+  <script>
+   if (document.documentMode === 10) {
+    document.getElementById('ie-ten-disclaimer').style.display = 'block';
+  }
+  </script>
+  <noscript>
+   <div class="alertMessage">
+    <span class="bullet bullet--small bullet--orange alertMessage__icon">
+     <i class="icon-exclamation">
+     </i>
+    </span>
+    <p class="alertMessage__text">
+     Veuillez utiliser un
+     <a href="https://browser-update.org/update.html">
+      navigateur internet moderne
+     </a>
+     avec JavaScript activé pour naviguer sur OpenClassrooms.com
+    </p>
+   </div>
+  </noscript>
+  <div id="mainContentWithHeader">
+   <header id="mainHeader">
+    <div style="clear: both;">
+    </div>
+    <section id="headerMiddle">
+     <section class="containerSdz">
+      <a href="/forum/">
+       <div class="titlePicture forumSdz">
+       </div>
+      </a>
+      <h1>
+       <a href="/forum/">
+        Forums des
+        <strong>
+         Zéros
+        </strong>
+       </a>
+      </h1>
+      <p>
+       Une question ? Pas de panique, on va vous aider !
+      </p>
+     </section>
+    </section>
+    <section class="breadcrumb inset no-padding">
+     <div class="grid-wrapper">
+      <div class="grid-inner">
+       <nav aria-label="Fil d'Ariane" class="breadcrumb__wrapper" role="navigation">
+        <ul class="breadcrumb__trail">
+         <li class="breadcrumb__item" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+          <a class="breadcrumb__link" href="../../fr/" itemprop="url">
+           <span itemprop="title">
+            Accueil
+           </span>
+          </a>
+          <span class="breadcrumb__separator">
+           &gt;
+          </span>
+         </li>
+         <li class="breadcrumb__item" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+          <a class="breadcrumb__link" href="../" itemprop="url">
+           <span itemprop="title">
+            Forum
+           </span>
+          </a>
+          <span class="breadcrumb__separator">
+           &gt;
+          </span>
+         </li>
+         <li class="breadcrumb__item" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+          <a class="breadcrumb__link" href="https://openclassrooms.com/forum/categorie/communaute-des-zeros" itemprop="url">
+           <span itemprop="title">
+            Communauté des Zéros
+           </span>
+          </a>
+          <span class="breadcrumb__separator">
+           &gt;
+          </span>
+         </li>
+         <li class="breadcrumb__item" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+          <a class="breadcrumb__link" href="https://openclassrooms.com/forum/categorie/vos-etudes" itemprop="url">
+           <span itemprop="title">
+            Vos études
+           </span>
+          </a>
+          <span class="breadcrumb__separator">
+           &gt;
+          </span>
+         </li>
+         <li class="breadcrumb__item" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+          ESTIAM est elle une école recommandable ?
+         </li>
+        </ul>
+       </nav>
+      </div>
+     </div>
+    </section>
+    <div class="mainSearch search-content" id="mainSearch">
+    </div>
+    <section class="alt-section no-padding no-border">
+     <div class="grid-wrapper">
+      <div class="grid-inner" id="submenuWrapper">
+       <ul class="nav-tabs nav-tabs--navHorizontal" id="secondMenu">
+        <li>
+         <a href="/forum/">
+          Liste des forums
+         </a>
+        </li>
+        <li class="nav-tabs--searchField text-right hidden-xs">
+         <form action="/fr/recherche/" class="oc-form hidden-xs" method="get">
+          <div class="oc-form__widget inputGroup inputGroup--medium">
+           <input aria-label="Barre de recherche" class="oc-form__control inputGroup__input" name="search" placeholder="Rechercher sur le forum" type="search"/>
+           <button class="button button--iconOnly inputGroup__button" title="Rechercher dans le forum" type="submit">
+            <span class="accessibility-hidden">
+             Rechercher dans le forum
+            </span>
+            <i class="inputGroup__icon icon-search">
+            </i>
+           </button>
+          </div>
+         </form>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </section>
+   </header>
+   <section class="spacer" id="mainContent" role="main">
+    <section class="" id="mainSection">
+     <div class="grid-wrapper">
+      <div class="grid-inner">
+       <div class="grid-inner-content u--positionRelative">
+        <div class="soc_hello_ials">
+         <span class="shared">
+          Partage
+         </span>
+         <ul class="addthis_buttons addthis_share">
+          <li>
+           <a class="addthis_button_facebook" data-addthis-description="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable" title="Partager sur Facebook">
+            <img alt="Partager sur Facebook" src="/bundles/common/images/ico_addthis_facebook.png?cb8fc3d7"/>
+           </a>
+          </li>
+          <li>
+           <a class="addthis_button_twitter" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable" title="Partager sur Twitter">
+            <img alt="Partager sur Twitter" src="/bundles/common/images/ico_addthis_twitter.png?cb8fc3d7"/>
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="grid-wrapper">
+      <div class="grid-inner">
+       <div class="grid-inner-content u--positionRelative forum__content">
+        <h1>
+         <a href="/forum/sujet/estiam-est-elle-une-ecole-recommandable">
+          ESTIAM est elle une école recommandable ?
+         </a>
+        </h1>
+        <section class="comments">
+         <div class="row">
+          <div class="userInfos">
+           <div class="avatar-oc">
+            <div class="author">
+             <a href="/fr/membres/lilianeguelfi" rel="nofollow" title="Profil de LilianeGuelfi">
+              LilianeGuelfi
+             </a>
+            </div>
+            <a href="/fr/membres/lilianeguelfi" rel="nofollow" title="Profil de LilianeGuelfi">
+             <img alt="" src="https://openclassrooms.com/bundles/common/images/avatar_defaut.png" width="80px"/>
+            </a>
+           </div>
+           <ul class="skills">
+           </ul>
+          </div>
+          <div class="span10 comment" id="message-92456091">
+           <ul class="actions">
+           </ul>
+           <div class="content">
+            <a class="date" href="#message-92456091">
+             20 juin 2018 à 22:25:24
+            </a>
+            <br/>
+            <br/>
+            <div class="message markdown-body" role="article">
+             <p>
+              Bonjour !
+             </p>
+             <p>
+              Tandis que je cherchais une école informatique, je suis tombée sur ESTIAM. Le programme me plait énormément ainsi que la pédagogie. Seulement, cette école n'a que des avis Google et sur le site de l'Étudiant, mais je trouve ca louche que tout les commentaires laissés soit hyper positif, aucune critique. Je trouve ca d'autant plus bizarre qu'on ne trouve aucun avis des élèves sur des forums ou youtube et qu'en plus leur différents réseaux sociaux soit tellement peu suivit ( 33 abonnés sur twitter par exemple). J'ai un entretiens dans l'école vendredi mais j'ai pas encore décidé de si je devais m'y inscrire ou pas. C'est quand même un certain budget de s'inscrire dans une école alors voila.
+             </p>
+             <p>
+              Si quelqu'un est actuellement ou anciennement élèves de ESTIAM ou qu'il connait quelqu'un qui y était ou qui y est encore, ca serait sympa de me dire si c'est une école qui en vaut le coup ou non.
+             </p>
+             <p>
+              Merci beaucoup
+             </p>
+             <p>
+              -
+              <br/>
+              Edité par LilianeGuelfi 20 juin 2018 à 22:26:38
+             </p>
+            </div>
+            <span class="commentVote">
+            </span>
+            <ul class="addthis_buttons addthis_share">
+             <li>
+              <a class="addthis_button_facebook" data-addthis-description="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92456091" title="Partager sur Facebook">
+               <img alt="Partager sur Facebook" src="/bundles/common/images/ico_addthis_facebook.png?cb8fc3d7"/>
+              </a>
+             </li>
+             <li>
+              <a class="addthis_button_twitter" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92456091" title="Partager sur Twitter">
+               <img alt="Partager sur Twitter" src="/bundles/common/images/ico_addthis_twitter.png?cb8fc3d7"/>
+              </a>
+             </li>
+            </ul>
+           </div>
+          </div>
+          <div class="span12">
+          </div>
+         </div>
+         <div class="row">
+          <div class="userInfos">
+           <div class="avatar-oc">
+            <div class="author">
+             <a href="/fr/membres/givrali" rel="nofollow" title="Profil de Givrali">
+              Givrali
+             </a>
+            </div>
+            <a href="/fr/membres/givrali" rel="nofollow" title="Profil de Givrali">
+             <img alt="" src="https://openclassrooms.com/bundles/common/images/avatar_defaut.png" width="80px"/>
+            </a>
+           </div>
+           <ul class="skills">
+           </ul>
+          </div>
+          <div class="span10 comment" id="message-92456608">
+           <ul class="actions">
+           </ul>
+           <div class="content">
+            <a class="date" href="#message-92456608">
+             21 juin 2018 à 8:06:45
+            </a>
+            <br/>
+            <br/>
+            <div class="message markdown-body" role="article">
+             <p>
+              Bonjour
+             </p>
+             <p>
+              tout dépend de votre situation. Si vous avez un profil a priori peu adapté à des études d'info académiques (bac pro ou littéraire, reconversion), ce type d'école peut vous tirer d'affaire.
+             </p>
+             <p>
+              Toutefois dans ce cas on se demande si ESTIAM délivre bien un titre RNCP. Prenez le temps de vérifier ce point.
+             </p>
+             <p>
+              Si vous avez un bac scientifique (S, STI2D, voire STMG) il existe des solutions plus intéressantes.
+             </p>
+            </div>
+            <span class="commentVote">
+            </span>
+            <ul class="addthis_buttons addthis_share">
+             <li>
+              <a class="addthis_button_facebook" data-addthis-description="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92456608" title="Partager sur Facebook">
+               <img alt="Partager sur Facebook" src="/bundles/common/images/ico_addthis_facebook.png?cb8fc3d7"/>
+              </a>
+             </li>
+             <li>
+              <a class="addthis_button_twitter" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92456608" title="Partager sur Twitter">
+               <img alt="Partager sur Twitter" src="/bundles/common/images/ico_addthis_twitter.png?cb8fc3d7"/>
+              </a>
+             </li>
+            </ul>
+           </div>
+          </div>
+          <div class="span12">
+          </div>
+         </div>
+         <div class="row">
+          <div class="userInfos">
+           <div class="avatar-oc">
+            <div class="author">
+             <a href="/fr/membres/lilianeguelfi" rel="nofollow" title="Profil de LilianeGuelfi">
+              LilianeGuelfi
+             </a>
+            </div>
+            <a href="/fr/membres/lilianeguelfi" rel="nofollow" title="Profil de LilianeGuelfi">
+             <img alt="" src="https://openclassrooms.com/bundles/common/images/avatar_defaut.png" width="80px"/>
+            </a>
+           </div>
+           <ul class="skills">
+           </ul>
+          </div>
+          <div class="span10 comment" id="message-92456721">
+           <ul class="actions">
+           </ul>
+           <div class="content">
+            <a class="date" href="#message-92456721">
+             21 juin 2018 à 9:33:53
+            </a>
+            <br/>
+            <br/>
+            <div class="message markdown-body" role="article">
+             <p>
+              <strong>
+               Givrali a écrit:
+              </strong>
+             </p>
+             <blockquote>
+              <p>
+               Bonjour
+              </p>
+              <p>
+               tout dépend de votre situation. Si vous avez un profil a priori peu adapté à des études d'info académiques (bac pro ou littéraire, reconversion), ce type d'école peut vous tirer d'affaire.
+              </p>
+              <p>
+               Toutefois dans ce cas on se demande si ESTIAM délivre bien un titre RNCP. Prenez le temps de vérifier ce point.
+              </p>
+              <p>
+               Si vous avez un bac scientifique (S, STI2D, voire STMG) il existe des solutions plus intéressantes.
+              </p>
+             </blockquote>
+             <p>
+              <br/>
+              J'ai fait un bac scientifique. D'après l'école il délivre un RNCP nv I.
+             </p>
+             <p>
+              J'ai cherché d'autre écoles mais le problèmes c'est que je trouve tjrs quelque chose qui cloche.
+             </p>
+            </div>
+            <span class="commentVote">
+            </span>
+            <ul class="addthis_buttons addthis_share">
+             <li>
+              <a class="addthis_button_facebook" data-addthis-description="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92456721" title="Partager sur Facebook">
+               <img alt="Partager sur Facebook" src="/bundles/common/images/ico_addthis_facebook.png?cb8fc3d7"/>
+              </a>
+             </li>
+             <li>
+              <a class="addthis_button_twitter" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92456721" title="Partager sur Twitter">
+               <img alt="Partager sur Twitter" src="/bundles/common/images/ico_addthis_twitter.png?cb8fc3d7"/>
+              </a>
+             </li>
+            </ul>
+           </div>
+          </div>
+          <div class="span12">
+          </div>
+         </div>
+         <div class="row">
+          <div class="userInfos">
+           <div class="avatar-oc">
+            <div class="author">
+             <a href="/fr/membres/givrali" rel="nofollow" title="Profil de Givrali">
+              Givrali
+             </a>
+            </div>
+            <a href="/fr/membres/givrali" rel="nofollow" title="Profil de Givrali">
+             <img alt="" src="https://openclassrooms.com/bundles/common/images/avatar_defaut.png" width="80px"/>
+            </a>
+           </div>
+           <ul class="skills">
+           </ul>
+          </div>
+          <div class="span10 comment" id="message-92456831">
+           <ul class="actions">
+           </ul>
+           <div class="content">
+            <a class="date" href="#message-92456831">
+             21 juin 2018 à 10:37:14
+            </a>
+            <br/>
+            <br/>
+            <div class="message markdown-body" role="article">
+             <p>
+              Il y a beaucoup de "choses qui clochent" dans ce type d'école. ..
+             </p>
+             <p>
+              Si vous nous donnez plus d'infos sur votre situation actuelle (âge, années d'études, réussies ou non, possibilités de payer ou non des frais de scolarité, un logement....) On peut vous suggérer d'autres cursus.
+             </p>
+            </div>
+            <span class="commentVote">
+            </span>
+            <ul class="addthis_buttons addthis_share">
+             <li>
+              <a class="addthis_button_facebook" data-addthis-description="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92456831" title="Partager sur Facebook">
+               <img alt="Partager sur Facebook" src="/bundles/common/images/ico_addthis_facebook.png?cb8fc3d7"/>
+              </a>
+             </li>
+             <li>
+              <a class="addthis_button_twitter" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92456831" title="Partager sur Twitter">
+               <img alt="Partager sur Twitter" src="/bundles/common/images/ico_addthis_twitter.png?cb8fc3d7"/>
+              </a>
+             </li>
+            </ul>
+           </div>
+          </div>
+          <div class="span12">
+          </div>
+         </div>
+         <div class="row">
+          <div class="userInfos">
+           <div class="avatar-oc">
+            <div class="author">
+             <a href="/fr/membres/lilianeguelfi" rel="nofollow" title="Profil de LilianeGuelfi">
+              LilianeGuelfi
+             </a>
+            </div>
+            <a href="/fr/membres/lilianeguelfi" rel="nofollow" title="Profil de LilianeGuelfi">
+             <img alt="" src="https://openclassrooms.com/bundles/common/images/avatar_defaut.png" width="80px"/>
+            </a>
+           </div>
+           <ul class="skills">
+           </ul>
+          </div>
+          <div class="span10 comment" id="message-92457052">
+           <ul class="actions">
+           </ul>
+           <div class="content">
+            <a class="date" href="#message-92457052">
+             21 juin 2018 à 12:41:39
+            </a>
+            <br/>
+            <br/>
+            <div class="message markdown-body" role="article">
+             <p>
+              J'ai passé mon bac S spé svt en 2016. Depuis j'ai fait 2 ans de PACES. Étant donné que j'ai donc passé mon bac depuis 2 ans maintenant Parcoursup ca me fait bien galère pour s'inscrire dans les DUT parce que je suis pas vraiment prioritaire et cette année je n'ai pas était prise alors je regarde les écoles.  J'ai la possibilité de payer les écoles du moment que c'est pas dans les 10 milles euros. J'ai un logement sur Paris.
+             </p>
+            </div>
+            <span class="commentVote">
+            </span>
+            <ul class="addthis_buttons addthis_share">
+             <li>
+              <a class="addthis_button_facebook" data-addthis-description="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92457052" title="Partager sur Facebook">
+               <img alt="Partager sur Facebook" src="/bundles/common/images/ico_addthis_facebook.png?cb8fc3d7"/>
+              </a>
+             </li>
+             <li>
+              <a class="addthis_button_twitter" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92457052" title="Partager sur Twitter">
+               <img alt="Partager sur Twitter" src="/bundles/common/images/ico_addthis_twitter.png?cb8fc3d7"/>
+              </a>
+             </li>
+            </ul>
+           </div>
+          </div>
+          <div class="span12">
+          </div>
+         </div>
+         <div class="row">
+          <div class="userInfos">
+           <div class="avatar-oc">
+            <div class="author">
+             <a href="/fr/membres/givrali" rel="nofollow" title="Profil de Givrali">
+              Givrali
+             </a>
+            </div>
+            <a href="/fr/membres/givrali" rel="nofollow" title="Profil de Givrali">
+             <img alt="" src="https://openclassrooms.com/bundles/common/images/avatar_defaut.png" width="80px"/>
+            </a>
+           </div>
+           <ul class="skills">
+           </ul>
+          </div>
+          <div class="span10 comment" id="message-92457110">
+           <ul class="actions">
+           </ul>
+           <div class="content">
+            <a class="date" href="#message-92457110">
+             21 juin 2018 à 13:26:29
+            </a>
+            <br/>
+            <br/>
+            <div class="message markdown-body" role="article">
+             <p>
+              Vous n'avez demandé que des DUT sur Parcoursup et vous avez été refusé ?
+             </p>
+             <p>
+              Un certain nombre d'écoles d'ingénieur proposent des admissions parallèles pour les PACES, mais à cette période de l'année il est sans doute trop tard (vérifiez auprès des écoles, qui ont sans doute du mal à faire le plein cette année avec Parcoursup)
+             </p>
+             <p>
+              <a href="https://www.studyrama.com/formations/orientation-reorientation/2eme-rentree-se-reorienter-en-decembre-janvier/quelles-passerelles-apres-un-echec-en-paces-pensez-88834" rel="nofollow">
+               https://www.studyrama.com/formations/orientation-reorientation/2eme-rentree-se-reorienter-en-decembre-janvier/quelles-passerelles-apres-un-echec-en-paces-pensez-88834
+              </a>
+             </p>
+             <p>
+              Si vous n'avez eu que des non vous pouvez participer à la procédure complémentaire sur APB; je suppose que vous voulez quitter l'université (?) mais  il reste souvent des places disponibles en BTS SIO. Des écoles privées proposent également ce BTS.
+             </p>
+             <p>
+              Si vous êtes sûr de préférer une école  d'informatique préférez Epitech qui commence à bénéficier d'un réseau efficace.
+             </p>
+            </div>
+            <span class="commentVote">
+            </span>
+            <ul class="addthis_buttons addthis_share">
+             <li>
+              <a class="addthis_button_facebook" data-addthis-description="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92457110" title="Partager sur Facebook">
+               <img alt="Partager sur Facebook" src="/bundles/common/images/ico_addthis_facebook.png?cb8fc3d7"/>
+              </a>
+             </li>
+             <li>
+              <a class="addthis_button_twitter" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92457110" title="Partager sur Twitter">
+               <img alt="Partager sur Twitter" src="/bundles/common/images/ico_addthis_twitter.png?cb8fc3d7"/>
+              </a>
+             </li>
+            </ul>
+           </div>
+          </div>
+          <div class="span12">
+          </div>
+         </div>
+         <div class="row">
+          <div class="userInfos">
+           <div class="avatar-oc">
+            <div class="author">
+             <a href="/fr/membres/lilianeguelfi" rel="nofollow" title="Profil de LilianeGuelfi">
+              LilianeGuelfi
+             </a>
+            </div>
+            <a href="/fr/membres/lilianeguelfi" rel="nofollow" title="Profil de LilianeGuelfi">
+             <img alt="" src="https://openclassrooms.com/bundles/common/images/avatar_defaut.png" width="80px"/>
+            </a>
+           </div>
+           <ul class="skills">
+           </ul>
+          </div>
+          <div class="span10 comment" id="message-92457139">
+           <ul class="actions">
+           </ul>
+           <div class="content">
+            <a class="date" href="#message-92457139">
+             21 juin 2018 à 13:47:07
+            </a>
+            <br/>
+            <br/>
+            <div class="message markdown-body" role="article">
+             <p>
+              Pour les école d'ingénieurs il faut être vraiment fort en maths non? Parce que c'est pas vraiment mon cas...
+             </p>
+             <p>
+              J'ai déjà envoyé ma candidature à Epitech, j'ai juste eu des doutes vis a vis de tout les avis laissé sur internet pour l'école en question je savais plus trop quoi en penser.
+             </p>
+             <p>
+              Je vais me renseigner sur les BTS SIO, merci !
+             </p>
+            </div>
+            <span class="commentVote">
+            </span>
+            <ul class="addthis_buttons addthis_share">
+             <li>
+              <a class="addthis_button_facebook" data-addthis-description="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92457139" title="Partager sur Facebook">
+               <img alt="Partager sur Facebook" src="/bundles/common/images/ico_addthis_facebook.png?cb8fc3d7"/>
+              </a>
+             </li>
+             <li>
+              <a class="addthis_button_twitter" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92457139" title="Partager sur Twitter">
+               <img alt="Partager sur Twitter" src="/bundles/common/images/ico_addthis_twitter.png?cb8fc3d7"/>
+              </a>
+             </li>
+            </ul>
+           </div>
+          </div>
+          <div class="span12">
+          </div>
+         </div>
+         <div class="row">
+          <div class="userInfos">
+           <div class="avatar-oc">
+            <div class="author">
+             <a href="/fr/membres/rombosq" rel="nofollow" title="Profil de genzy">
+              genzy
+             </a>
+            </div>
+            <a href="/fr/membres/rombosq" rel="nofollow" title="Profil de genzy">
+             <img alt="" src="https://www.gravatar.com/avatar/0a816ca92195cfb355c16978e3c9dd4a/?s=256&amp;r=g&amp;d=https%3A%2F%2Fopenclassrooms.com%2Fbundles%2Fcommon%2Fimages%2Favatar_defaut.png" width="80px"/>
+            </a>
+           </div>
+           <ul class="skills">
+           </ul>
+          </div>
+          <div class="span10 comment" id="message-92457347">
+           <ul class="actions">
+           </ul>
+           <div class="content">
+            <a class="date" href="#message-92457347">
+             21 juin 2018 à 15:56:46
+            </a>
+            <br/>
+            <br/>
+            <div class="message markdown-body" role="article">
+             <p>
+              <strong>
+               LilianeGuelfi a écrit:
+              </strong>
+             </p>
+             <blockquote>
+              <p>
+               J'ai la possibilité de payer les écoles du moment que c'est pas dans les 10 milles euros. J'ai un logement sur Paris.
+              </p>
+             </blockquote>
+             <blockquote>
+              <p>
+               J'ai déjà envoyé ma candidature à Epitech, j'ai juste eu des doutes vis a vis de tout les avis laissé sur internet pour l'école en question je savais plus trop quoi en penser.
+              </p>
+             </blockquote>
+             <br/>
+             <br/>
+             <br/>
+             Y a un truc qui colle pas dans ce que tu dis
+            </div>
+            <span class="commentVote">
+            </span>
+            <ul class="addthis_buttons addthis_share">
+             <li>
+              <a class="addthis_button_facebook" data-addthis-description="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92457347" title="Partager sur Facebook">
+               <img alt="Partager sur Facebook" src="/bundles/common/images/ico_addthis_facebook.png?cb8fc3d7"/>
+              </a>
+             </li>
+             <li>
+              <a class="addthis_button_twitter" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92457347" title="Partager sur Twitter">
+               <img alt="Partager sur Twitter" src="/bundles/common/images/ico_addthis_twitter.png?cb8fc3d7"/>
+              </a>
+             </li>
+            </ul>
+           </div>
+          </div>
+          <div class="span12">
+          </div>
+         </div>
+         <div class="row">
+          <div class="userInfos">
+           <div class="avatar-oc">
+            <div class="author">
+             <a href="/fr/membres/lilianeguelfi" rel="nofollow" title="Profil de LilianeGuelfi">
+              LilianeGuelfi
+             </a>
+            </div>
+            <a href="/fr/membres/lilianeguelfi" rel="nofollow" title="Profil de LilianeGuelfi">
+             <img alt="" src="https://openclassrooms.com/bundles/common/images/avatar_defaut.png" width="80px"/>
+            </a>
+           </div>
+           <ul class="skills">
+           </ul>
+          </div>
+          <div class="span10 comment" id="message-92460154">
+           <ul class="actions">
+           </ul>
+           <div class="content">
+            <a class="date" href="#message-92460154">
+             23 juin 2018 à 13:57:30
+            </a>
+            <br/>
+            <br/>
+            <div class="message markdown-body" role="article">
+             <p>
+              <br/>
+              Ou? Si tu fais référence au prix Epitech coute jamais plus cher que 10 000 euros. C'est 6 400 euros l'année 1 et 2  et 8300 euros la 3ème, 4ème et 5ème année.
+             </p>
+             <br/>
+             <br/>
+             <p>
+              -
+              <br/>
+              Edité par LilianeGuelfi 23 juin 2018 à 13:58:46
+             </p>
+            </div>
+            <span class="commentVote">
+            </span>
+            <ul class="addthis_buttons addthis_share">
+             <li>
+              <a class="addthis_button_facebook" data-addthis-description="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92460154" title="Partager sur Facebook">
+               <img alt="Partager sur Facebook" src="/bundles/common/images/ico_addthis_facebook.png?cb8fc3d7"/>
+              </a>
+             </li>
+             <li>
+              <a class="addthis_button_twitter" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92460154" title="Partager sur Twitter">
+               <img alt="Partager sur Twitter" src="/bundles/common/images/ico_addthis_twitter.png?cb8fc3d7"/>
+              </a>
+             </li>
+            </ul>
+           </div>
+          </div>
+          <div class="span12">
+          </div>
+         </div>
+         <div class="row">
+          <div class="userInfos">
+           <div class="avatar-oc">
+            <div class="author">
+             <a href="/fr/membres/meriembelaiba" rel="nofollow" title="Profil de MeriemBelAiba">
+              MeriemBelAiba
+             </a>
+            </div>
+            <a href="/fr/membres/meriembelaiba" rel="nofollow" title="Profil de MeriemBelAiba">
+             <img alt="" src="https://graph.facebook.com/10205170863447325/picture?type=large" width="80px"/>
+            </a>
+           </div>
+           <ul class="skills">
+           </ul>
+          </div>
+          <div class="span10 comment" id="message-92638775">
+           <ul class="actions">
+           </ul>
+           <div class="content">
+            <a class="date" href="#message-92638775">
+             9 septembre 2018 à 19:20:20
+            </a>
+            <br/>
+            <br/>
+            <div class="message markdown-body" role="article">
+             Bonjour,alors est ce que vous avez un retour de cet ecole? A recommander ou pas?
+            </div>
+            <span class="commentVote">
+            </span>
+            <ul class="addthis_buttons addthis_share">
+             <li>
+              <a class="addthis_button_facebook" data-addthis-description="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92638775" title="Partager sur Facebook">
+               <img alt="Partager sur Facebook" src="/bundles/common/images/ico_addthis_facebook.png?cb8fc3d7"/>
+              </a>
+             </li>
+             <li>
+              <a class="addthis_button_twitter" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92638775" title="Partager sur Twitter">
+               <img alt="Partager sur Twitter" src="/bundles/common/images/ico_addthis_twitter.png?cb8fc3d7"/>
+              </a>
+             </li>
+            </ul>
+           </div>
+          </div>
+          <div class="span12">
+          </div>
+         </div>
+         <div class="row">
+          <div class="userInfos">
+           <div class="avatar-oc">
+            <div class="author">
+             Anonyme
+            </div>
+            <img alt="" src="/bundles/common/images/avatar_defaut.png" width="80px"/>
+           </div>
+          </div>
+          <div class="span10 comment" id="message-92638878">
+           <ul class="actions">
+           </ul>
+           <div class="content">
+            <a class="date" href="#message-92638878">
+             9 septembre 2018 à 20:34:06
+            </a>
+            <br/>
+            <br/>
+            <div class="message markdown-body" role="article">
+             <p>
+              <strong>
+               LilianeGuelfi a écrit:
+              </strong>
+             </p>
+             <blockquote>
+              <p>
+               <br/>
+               Ou? Si tu fais référence au prix Epitech coute jamais plus cher que 10 000 euros. C'est 6 400 euros l'année 1 et 2  et 8300 euros la 3ème, 4ème et 5ème année.
+              </p>
+              <p>
+               <br/>
+               <br/>
+              </p>
+              <p>
+               -
+               <br/>
+               Edité par LilianeGuelfi 23 juin 2018 à 13:58:46
+              </p>
+             </blockquote>
+             <br/>
+             Epitech c'est pas une école d'ingénieur lol
+            </div>
+            <span class="commentVote">
+            </span>
+            <ul class="addthis_buttons addthis_share">
+             <li>
+              <a class="addthis_button_facebook" data-addthis-description="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92638878" title="Partager sur Facebook">
+               <img alt="Partager sur Facebook" src="/bundles/common/images/ico_addthis_facebook.png?cb8fc3d7"/>
+              </a>
+             </li>
+             <li>
+              <a class="addthis_button_twitter" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92638878" title="Partager sur Twitter">
+               <img alt="Partager sur Twitter" src="/bundles/common/images/ico_addthis_twitter.png?cb8fc3d7"/>
+              </a>
+             </li>
+            </ul>
+           </div>
+          </div>
+          <div class="span12">
+          </div>
+         </div>
+         <div class="row">
+          <div class="userInfos">
+           <div class="avatar-oc">
+            <div class="author">
+             <a href="/fr/membres/xaviermorel" rel="nofollow" title="Profil de Xaaav67">
+              Xaaav67
+             </a>
+            </div>
+            <a href="/fr/membres/xaviermorel" rel="nofollow" title="Profil de Xaaav67">
+             <img alt="" src="https://openclassrooms.com/bundles/common/images/avatar_defaut.png" width="80px"/>
+            </a>
+           </div>
+           <ul class="skills">
+           </ul>
+          </div>
+          <div class="span10 comment" id="message-92638890">
+           <ul class="actions">
+           </ul>
+           <div class="content">
+            <a class="date" href="#message-92638890">
+             9 septembre 2018 à 20:42:15
+            </a>
+            <br/>
+            <br/>
+            <div class="message markdown-body" role="article">
+             <p>
+              <strong>
+               kawaii69-93 a écrit:
+              </strong>
+             </p>
+             <blockquote>
+              <p>
+               Epitech c'est pas une école d'ingénieur lol
+              </p>
+             </blockquote>
+             <br/>
+             Quelqu'un a dit le contraire ?
+            </div>
+            <span class="commentVote">
+            </span>
+            <ul class="addthis_buttons addthis_share">
+             <li>
+              <a class="addthis_button_facebook" data-addthis-description="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92638890" title="Partager sur Facebook">
+               <img alt="Partager sur Facebook" src="/bundles/common/images/ico_addthis_facebook.png?cb8fc3d7"/>
+              </a>
+             </li>
+             <li>
+              <a class="addthis_button_twitter" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92638890" title="Partager sur Twitter">
+               <img alt="Partager sur Twitter" src="/bundles/common/images/ico_addthis_twitter.png?cb8fc3d7"/>
+              </a>
+             </li>
+            </ul>
+           </div>
+          </div>
+          <div class="span12">
+          </div>
+         </div>
+         <div class="row">
+          <div class="userInfos">
+           <div class="avatar-oc">
+            <div class="author">
+             Anonyme
+            </div>
+            <img alt="" src="/bundles/common/images/avatar_defaut.png" width="80px"/>
+           </div>
+          </div>
+          <div class="span10 comment" id="message-92640033">
+           <ul class="actions">
+           </ul>
+           <div class="content">
+            <a class="date" href="#message-92640033">
+             10 septembre 2018 à 8:24:31
+            </a>
+            <br/>
+            <br/>
+            <div class="message markdown-body" role="article">
+             <p>
+              <strong>
+               Xaaav67 a écrit:
+              </strong>
+             </p>
+             <blockquote>
+              <p>
+               <strong>
+                kawaii69-93 a écrit:
+               </strong>
+              </p>
+              <blockquote>
+               <p>
+                Epitech c'est pas une école d'ingénieur lol
+               </p>
+              </blockquote>
+              <p>
+               <br/>
+               Quelqu'un a dit le contraire ?
+              </p>
+             </blockquote>
+             <br/>
+             <blockquote style="font-size:14px;">
+              <p style="color:rgba(0,0,0,.85);">
+               "J'ai la possibilité de payer les écoles du moment que c'est pas dans les 10 milles euros. J'ai un logement sur Paris.
+              </p>
+             </blockquote>
+             <blockquote style="font-size:14px;">
+              <p style="color:rgba(0,0,0,.85);">
+               J'ai déjà envoyé ma candidature à Epitech, j'ai juste eu des doutes vis a vis de tout les avis laissé sur internet pour l'école en question je savais plus trop quoi en penser.
+              </p>
+             </blockquote>
+             <p>
+              <span style="font-size:14px;">
+               Y a un truc qui colle pas dans ce que tu dis"
+              </span>
+             </p>
+             <p>
+              <span style="font-size:14px;">
+               Excuse moi si c'est pas assez explicite pour toi là !!
+              </span>
+             </p>
+             <p>
+              -
+              <br/>
+              Edité par Anonyme 10 septembre 2018 à 8:25:37
+             </p>
+            </div>
+            <span class="commentVote">
+            </span>
+            <ul class="addthis_buttons addthis_share">
+             <li>
+              <a class="addthis_button_facebook" data-addthis-description="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92640033" title="Partager sur Facebook">
+               <img alt="Partager sur Facebook" src="/bundles/common/images/ico_addthis_facebook.png?cb8fc3d7"/>
+              </a>
+             </li>
+             <li>
+              <a class="addthis_button_twitter" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92640033" title="Partager sur Twitter">
+               <img alt="Partager sur Twitter" src="/bundles/common/images/ico_addthis_twitter.png?cb8fc3d7"/>
+              </a>
+             </li>
+            </ul>
+           </div>
+          </div>
+          <div class="span12">
+          </div>
+         </div>
+         <div class="row">
+          <div class="userInfos">
+           <div class="avatar-oc">
+            <div class="author">
+             <a href="/fr/membres/xaviermorel" rel="nofollow" title="Profil de Xaaav67">
+              Xaaav67
+             </a>
+            </div>
+            <a href="/fr/membres/xaviermorel" rel="nofollow" title="Profil de Xaaav67">
+             <img alt="" src="https://openclassrooms.com/bundles/common/images/avatar_defaut.png" width="80px"/>
+            </a>
+           </div>
+           <ul class="skills">
+           </ul>
+          </div>
+          <div class="span10 comment" id="message-92640965">
+           <ul class="actions">
+           </ul>
+           <div class="content">
+            <a class="date" href="#message-92640965">
+             10 septembre 2018 à 18:23:31
+            </a>
+            <br/>
+            <br/>
+            <div class="message markdown-body" role="article">
+             Je vois toujours pas le rapport avec une école d'ingénieur bref, inutile de continuer à polluer le topic de l'auteur.
+            </div>
+            <span class="commentVote">
+            </span>
+            <ul class="addthis_buttons addthis_share">
+             <li>
+              <a class="addthis_button_facebook" data-addthis-description="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92640965" title="Partager sur Facebook">
+               <img alt="Partager sur Facebook" src="/bundles/common/images/ico_addthis_facebook.png?cb8fc3d7"/>
+              </a>
+             </li>
+             <li>
+              <a class="addthis_button_twitter" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92640965" title="Partager sur Twitter">
+               <img alt="Partager sur Twitter" src="/bundles/common/images/ico_addthis_twitter.png?cb8fc3d7"/>
+              </a>
+             </li>
+            </ul>
+           </div>
+          </div>
+          <div class="span12">
+          </div>
+         </div>
+         <div class="row">
+          <div class="userInfos">
+           <div class="avatar-oc">
+            <div class="author">
+             Anonyme
+            </div>
+            <img alt="" src="/bundles/common/images/avatar_defaut.png" width="80px"/>
+           </div>
+          </div>
+          <div class="span10 comment" id="message-92640984">
+           <ul class="actions">
+           </ul>
+           <div class="content">
+            <a class="date" href="#message-92640984">
+             10 septembre 2018 à 18:41:05
+            </a>
+            <br/>
+            <br/>
+            <div class="message markdown-body" role="article">
+             <p>
+              <strong>
+               Xaaav67 a écrit:
+              </strong>
+             </p>
+             <blockquote>
+              <p>
+               Je vois toujours pas le rapport avec une école d'ingénieur bref, inutile de continuer à polluer le topic de l'auteur.
+              </p>
+             </blockquote>
+             <br/>
+             <p style="font-size:.938rem;color:rgba(0,0,0,.85098);">
+              Pour les école d'ingénieurs il faut être vraiment fort en maths non? Parce que c'est pas vraiment mon cas...
+             </p>
+             <p style="font-size:.938rem;color:rgba(0,0,0,.85098);">
+              J'ai déjà envoyé ma candidature à Epitech, j'ai juste eu des doutes vis a vis de tout les avis laissé sur internet pour l'école en question je savais plus trop quoi en penser.
+             </p>
+             <p style="font-size:.938rem;color:rgba(0,0,0,.85098);">
+              Voila le rapport si tu comprends toujours pas j'y suis pour rien.
+             </p>
+             <p>
+              -
+              <br/>
+              Edité par Anonyme 10 septembre 2018 à 18:44:46
+             </p>
+            </div>
+            <span class="commentVote">
+            </span>
+            <ul class="addthis_buttons addthis_share">
+             <li>
+              <a class="addthis_button_facebook" data-addthis-description="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92640984" title="Partager sur Facebook">
+               <img alt="Partager sur Facebook" src="/bundles/common/images/ico_addthis_facebook.png?cb8fc3d7"/>
+              </a>
+             </li>
+             <li>
+              <a class="addthis_button_twitter" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92640984" title="Partager sur Twitter">
+               <img alt="Partager sur Twitter" src="/bundles/common/images/ico_addthis_twitter.png?cb8fc3d7"/>
+              </a>
+             </li>
+            </ul>
+           </div>
+          </div>
+          <div class="span12">
+          </div>
+         </div>
+         <div class="row">
+          <div class="userInfos">
+           <div class="avatar-oc">
+            <div class="author">
+             <a href="/fr/membres/rombosq" rel="nofollow" title="Profil de genzy">
+              genzy
+             </a>
+            </div>
+            <a href="/fr/membres/rombosq" rel="nofollow" title="Profil de genzy">
+             <img alt="" src="https://www.gravatar.com/avatar/0a816ca92195cfb355c16978e3c9dd4a/?s=256&amp;r=g&amp;d=https%3A%2F%2Fopenclassrooms.com%2Fbundles%2Fcommon%2Fimages%2Favatar_defaut.png" width="80px"/>
+            </a>
+           </div>
+           <ul class="skills">
+           </ul>
+          </div>
+          <div class="span10 comment" id="message-92645448">
+           <ul class="actions">
+           </ul>
+           <div class="content">
+            <a class="date" href="#message-92645448">
+             12 septembre 2018 à 22:49:34
+            </a>
+            <br/>
+            <br/>
+            <div class="message markdown-body" role="article">
+             <p>
+              <strong>
+               kawaii69-93 a écrit:
+              </strong>
+             </p>
+             <blockquote>
+              <p>
+               <strong>
+                Xaaav67 a écrit:
+               </strong>
+              </p>
+              <blockquote>
+               <p>
+                Je vois toujours pas le rapport avec une école d'ingénieur bref, inutile de continuer à polluer le topic de l'auteur.
+               </p>
+              </blockquote>
+              <p>
+               <br/>
+              </p>
+              <p style="font-size:.938rem;color:rgba(0,0,0,.85098);">
+               Pour les école d'ingénieurs il faut être vraiment fort en maths non? Parce que c'est pas vraiment mon cas...
+              </p>
+              <p style="font-size:.938rem;color:rgba(0,0,0,.85098);">
+               J'ai déjà envoyé ma candidature à Epitech, j'ai juste eu des doutes vis a vis de tout les avis laissé sur internet pour l'école en question je savais plus trop quoi en penser.
+              </p>
+              <p style="font-size:.938rem;color:rgba(0,0,0,.85098);">
+               Voila le rapport si tu comprends toujours pas j'y suis pour rien.
+              </p>
+              <p>
+               -
+               <br/>
+               Edité par kawaii69-93 10 septembre 2018 à 18:44:46
+              </p>
+             </blockquote>
+             Je suis sorti de l'UTC sans avoir fait de maths. Je regrette un peu d'ailleurs aujourd'hui. Bref
+             <br/>
+             <br/>
+            </div>
+            <span class="commentVote">
+            </span>
+            <ul class="addthis_buttons addthis_share">
+             <li>
+              <a class="addthis_button_facebook" data-addthis-description="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92645448" title="Partager sur Facebook">
+               <img alt="Partager sur Facebook" src="/bundles/common/images/ico_addthis_facebook.png?cb8fc3d7"/>
+              </a>
+             </li>
+             <li>
+              <a class="addthis_button_twitter" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92645448" title="Partager sur Twitter">
+               <img alt="Partager sur Twitter" src="/bundles/common/images/ico_addthis_twitter.png?cb8fc3d7"/>
+              </a>
+             </li>
+            </ul>
+           </div>
+          </div>
+          <div class="span12">
+          </div>
+         </div>
+         <div class="row">
+          <div class="userInfos">
+           <div class="avatar-oc">
+            <div class="author">
+             Anonyme
+            </div>
+            <img alt="" src="/bundles/common/images/avatar_defaut.png" width="80px"/>
+           </div>
+          </div>
+          <div class="span10 comment" id="message-92645950">
+           <ul class="actions">
+           </ul>
+           <div class="content">
+            <a class="date" href="#message-92645950">
+             13 septembre 2018 à 7:44:58
+            </a>
+            <br/>
+            <br/>
+            <div class="message markdown-body" role="article">
+             <p>
+              <strong>
+               genzy a écrit:
+              </strong>
+             </p>
+             <blockquote>
+              <p>
+               <strong>
+                kawaii69-93 a écrit:
+               </strong>
+              </p>
+              <blockquote>
+               <p>
+                <strong>
+                 Xaaav67 a écrit:
+                </strong>
+               </p>
+               <blockquote>
+                <p>
+                 Je vois toujours pas le rapport avec une école d'ingénieur bref, inutile de continuer à polluer le topic de l'auteur.
+                </p>
+               </blockquote>
+               <p style="font-size:.938rem;color:rgba(0,0,0,.85098);">
+                Pour les école d'ingénieurs il faut être vraiment fort en maths non? Parce que c'est pas vraiment mon cas...
+               </p>
+               <p style="font-size:.938rem;color:rgba(0,0,0,.85098);">
+                J'ai déjà envoyé ma candidature à Epitech, j'ai juste eu des doutes vis a vis de tout les avis laissé sur internet pour l'école en question je savais plus trop quoi en penser.
+               </p>
+               <p style="font-size:.938rem;color:rgba(0,0,0,.85098);">
+                Voila le rapport si tu comprends toujours pas j'y suis pour rien.
+               </p>
+               <p>
+                -
+                <br/>
+                Edité par kawaii69-93 10 septembre 2018 à 18:44:46
+               </p>
+              </blockquote>
+              <p>
+               Je suis sorti de l'UTC sans avoir fait de maths. Je regrette un peu d'ailleurs aujourd'hui. Bref
+               <br/>
+               <br/>
+              </p>
+             </blockquote>
+             Il y a pas de Maths à l'UTC où t'as décidé de ne pas prendre Maths (si je le trompe pas on peut choisir ses UE la bas ?)
+             <br/>
+             <br/>
+            </div>
+            <span class="commentVote">
+            </span>
+            <ul class="addthis_buttons addthis_share">
+             <li>
+              <a class="addthis_button_facebook" data-addthis-description="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92645950" title="Partager sur Facebook">
+               <img alt="Partager sur Facebook" src="/bundles/common/images/ico_addthis_facebook.png?cb8fc3d7"/>
+              </a>
+             </li>
+             <li>
+              <a class="addthis_button_twitter" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92645950" title="Partager sur Twitter">
+               <img alt="Partager sur Twitter" src="/bundles/common/images/ico_addthis_twitter.png?cb8fc3d7"/>
+              </a>
+             </li>
+            </ul>
+           </div>
+          </div>
+          <div class="span12">
+          </div>
+         </div>
+         <div class="row">
+          <div class="userInfos">
+           <div class="avatar-oc">
+            <div class="author">
+             <a href="/fr/membres/rombosq" rel="nofollow" title="Profil de genzy">
+              genzy
+             </a>
+            </div>
+            <a href="/fr/membres/rombosq" rel="nofollow" title="Profil de genzy">
+             <img alt="" src="https://www.gravatar.com/avatar/0a816ca92195cfb355c16978e3c9dd4a/?s=256&amp;r=g&amp;d=https%3A%2F%2Fopenclassrooms.com%2Fbundles%2Fcommon%2Fimages%2Favatar_defaut.png" width="80px"/>
+            </a>
+           </div>
+           <ul class="skills">
+           </ul>
+          </div>
+          <div class="span10 comment" id="message-92646863">
+           <ul class="actions">
+           </ul>
+           <div class="content">
+            <a class="date" href="#message-92646863">
+             13 septembre 2018 à 19:32:10
+            </a>
+            <br/>
+            <br/>
+            <div class="message markdown-body" role="article">
+             <p>
+              <strong>
+               kawaii69-93 a écrit:
+              </strong>
+             </p>
+             <blockquote>
+              <p>
+               <strong>
+                genzy a écrit:
+               </strong>
+              </p>
+              <blockquote>
+               <p>
+                <strong>
+                 kawaii69-93 a écrit:
+                </strong>
+               </p>
+               <blockquote>
+                <p>
+                 <strong>
+                  Xaaav67 a écrit:
+                 </strong>
+                </p>
+                <blockquote>
+                 <p>
+                  Je vois toujours pas le rapport avec une école d'ingénieur bref, inutile de continuer à polluer le topic de l'auteur.
+                 </p>
+                </blockquote>
+                <p style="font-size:.938rem;color:rgba(0,0,0,.85098);">
+                 Pour les école d'ingénieurs il faut être vraiment fort en maths non? Parce que c'est pas vraiment mon cas...
+                </p>
+                <p style="font-size:.938rem;color:rgba(0,0,0,.85098);">
+                 J'ai déjà envoyé ma candidature à Epitech, j'ai juste eu des doutes vis a vis de tout les avis laissé sur internet pour l'école en question je savais plus trop quoi en penser.
+                </p>
+                <p style="font-size:.938rem;color:rgba(0,0,0,.85098);">
+                 Voila le rapport si tu comprends toujours pas j'y suis pour rien.
+                </p>
+                <p>
+                 -
+                 <br/>
+                 Edité par kawaii69-93 10 septembre 2018 à 18:44:46
+                </p>
+               </blockquote>
+               <p>
+                Je suis sorti de l'UTC sans avoir fait de maths. Je regrette un peu d'ailleurs aujourd'hui. Bref
+                <br/>
+                <br/>
+               </p>
+              </blockquote>
+              <p>
+               Il y a pas de Maths à l'UTC où t'as décidé de ne pas prendre Maths (si je le trompe pas on peut choisir ses UE la bas ?)
+               <br/>
+               <br/>
+              </p>
+             </blockquote>
+             <p>
+              Oui il y en a, j'ai juste esquivé
+              <img alt=":p" src="/bundles/tinymce/vendor/tiny_mce/plugins/emotions/img/langue.png" title=":p"/>
+             </p>
+             <p>
+              Mais comme je l'ai dit je regrette aujourd'hui. Ca sert plus qu'on ne le croit.
+              <br/>
+              <br/>
+             </p>
+            </div>
+            <span class="commentVote">
+            </span>
+            <ul class="addthis_buttons addthis_share">
+             <li>
+              <a class="addthis_button_facebook" data-addthis-description="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92646863" title="Partager sur Facebook">
+               <img alt="Partager sur Facebook" src="/bundles/common/images/ico_addthis_facebook.png?cb8fc3d7"/>
+              </a>
+             </li>
+             <li>
+              <a class="addthis_button_twitter" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92646863" title="Partager sur Twitter">
+               <img alt="Partager sur Twitter" src="/bundles/common/images/ico_addthis_twitter.png?cb8fc3d7"/>
+              </a>
+             </li>
+            </ul>
+           </div>
+          </div>
+          <div class="span12">
+          </div>
+         </div>
+         <div class="row">
+          <div class="userInfos">
+           <div class="avatar-oc">
+            <div class="author">
+             Anonyme
+            </div>
+            <img alt="" src="/bundles/common/images/avatar_defaut.png" width="80px"/>
+           </div>
+          </div>
+          <div class="span10 comment" id="message-92647010">
+           <ul class="actions">
+           </ul>
+           <div class="content">
+            <a class="date" href="#message-92647010">
+             13 septembre 2018 à 21:20:38
+            </a>
+            <br/>
+            <br/>
+            <div class="message markdown-body" role="article">
+             @genzy : on peut pas revenir en arrière malheureusement, perso j'aurais tous changé depuis la seconde que j'aurais pour soit faire S ou STI2D.
+            </div>
+            <span class="commentVote">
+            </span>
+            <ul class="addthis_buttons addthis_share">
+             <li>
+              <a class="addthis_button_facebook" data-addthis-description="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92647010" title="Partager sur Facebook">
+               <img alt="Partager sur Facebook" src="/bundles/common/images/ico_addthis_facebook.png?cb8fc3d7"/>
+              </a>
+             </li>
+             <li>
+              <a class="addthis_button_twitter" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/92647010" title="Partager sur Twitter">
+               <img alt="Partager sur Twitter" src="/bundles/common/images/ico_addthis_twitter.png?cb8fc3d7"/>
+              </a>
+             </li>
+            </ul>
+           </div>
+          </div>
+          <div class="span12">
+          </div>
+         </div>
+         <div class="row">
+          <div class="userInfos">
+           <div class="avatar-oc">
+            <div class="author">
+             <a href="/fr/membres/mopiou-10576" rel="nofollow" title="Profil de MoPiou">
+              MoPiou
+             </a>
+            </div>
+            <a href="/fr/membres/mopiou-10576" rel="nofollow" title="Profil de MoPiou">
+             <img alt="" src="https://openclassrooms.com/bundles/common/images/avatar_defaut.png" width="80px"/>
+            </a>
+           </div>
+           <ul class="skills">
+           </ul>
+          </div>
+          <div class="span10 comment" id="message-93175173">
+           <ul class="actions">
+           </ul>
+           <div class="content">
+            <a class="date" href="#message-93175173">
+             18 mai 2019 à 16:17:06
+            </a>
+            <br/>
+            <br/>
+            <div class="message markdown-body" role="article">
+             <p>
+              Salut, j'ai un ami qui y est actuellement et un pote de cet ami a été diplômé de cette école.
+             </p>
+             <p>
+              Sinon il y a des iut informatiques ou bts ou des écoles type epitech / efrei / etc. École 42
+             </p>
+            </div>
+            <span class="commentVote">
+            </span>
+            <ul class="addthis_buttons addthis_share">
+             <li>
+              <a class="addthis_button_facebook" data-addthis-description="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/93175173" title="Partager sur Facebook">
+               <img alt="Partager sur Facebook" src="/bundles/common/images/ico_addthis_facebook.png?cb8fc3d7"/>
+              </a>
+             </li>
+             <li>
+              <a class="addthis_button_twitter" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/93175173" title="Partager sur Twitter">
+               <img alt="Partager sur Twitter" src="/bundles/common/images/ico_addthis_twitter.png?cb8fc3d7"/>
+              </a>
+             </li>
+            </ul>
+           </div>
+          </div>
+          <div class="span12">
+          </div>
+         </div>
+         <div class="row">
+          <div class="userInfos">
+           <div class="avatar-oc">
+            <div class="author">
+             <a href="/fr/membres/laure-zrp" rel="nofollow" title="Profil de Alounate">
+              Alounate
+             </a>
+            </div>
+            <a href="/fr/membres/laure-zrp" rel="nofollow" title="Profil de Alounate">
+             <img alt="" src="https://openclassrooms.com/bundles/common/images/avatar_defaut.png" width="80px"/>
+            </a>
+           </div>
+           <ul class="skills">
+           </ul>
+          </div>
+          <div class="span10 comment" id="message-93721584">
+           <ul class="actions">
+           </ul>
+           <div class="content">
+            <a class="date" href="#message-93721584">
+             13 avril 2020 à 18:09:56
+            </a>
+            <br/>
+            <br/>
+            <div class="message markdown-body" role="article">
+             Coucou ! Je suis dans cette école et elle est géniale vraiment. Estiam c'est cool car on apprend vite et bien étant en petit comité. J'ai jamais été dans une école avec une si bonne ambiance ! On est en quelque sorte une grande famille et le directeur est mega cool, voilà
+             <img alt="^^" src="/bundles/tinymce/vendor/tiny_mce/plugins/emotions/img/hihi.png" title="^^">
+              (j'ai pas été envoyée pour écrire ce message hein, l'école est vraiment extra donc si vous êtes en train de lire les avis pour voir si l'école vous convient...... rejoignez nouuuus!!)
+             </img>
+            </div>
+            <span class="commentVote">
+            </span>
+            <ul class="addthis_buttons addthis_share">
+             <li>
+              <a class="addthis_button_facebook" data-addthis-description="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/93721584" title="Partager sur Facebook">
+               <img alt="Partager sur Facebook" src="/bundles/common/images/ico_addthis_facebook.png?cb8fc3d7"/>
+              </a>
+             </li>
+             <li>
+              <a class="addthis_button_twitter" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/93721584" title="Partager sur Twitter">
+               <img alt="Partager sur Twitter" src="/bundles/common/images/ico_addthis_twitter.png?cb8fc3d7"/>
+              </a>
+             </li>
+            </ul>
+           </div>
+          </div>
+          <div class="span12">
+          </div>
+         </div>
+         <div class="row">
+          <div class="userInfos">
+           <div class="avatar-oc">
+            <div class="author">
+             <a href="/fr/membres/lisarayuki" rel="nofollow" title="Profil de lisarayuki">
+              lisarayuki
+             </a>
+            </div>
+            <a href="/fr/membres/lisarayuki" rel="nofollow" title="Profil de lisarayuki">
+             <img alt="" src="https://openclassrooms.com/bundles/common/images/avatar_defaut.png" width="80px"/>
+            </a>
+           </div>
+           <ul class="skills">
+           </ul>
+          </div>
+          <div class="span10 comment" id="message-93758788">
+           <ul class="actions">
+           </ul>
+           <div class="content">
+            <a class="date" href="#message-93758788">
+             12 mai 2020 à 11:59:17
+            </a>
+            <br/>
+            <br/>
+            <div class="message markdown-body" role="article">
+             <span style="color:rgba(0,0,0,.87);font-size:14px;">
+              FUIRE NE PAS S'INSCRIRE ! DES FAUX AVIS POUR REMONTER LA NOTE !
+              <br/>
+              J'y ai fait deux ans je déconseille !
+              <br/>
+              Malgré énormément de promesses du directeur (Olivier Comes) l'école ne fait que empirer puisqu'il ne tient aucune d'elle. Toutes les personnes de l'administration qui auraient pu faire remonter la pente à l'école sont partis puisque jamais écouté par le directeur qui na que un seul mot en tête "argent". Toutes ses actions sont juste pour faire du profit, il n'y à plus d'intervenants extérieur car plus payés ils ne revenaient pas. Malgré des réunions organisé avec le directeur plusieurs fois avec les responsables des promotions ou des projets étaient décidé et d'après le directeur mit en place dés la semaine suivant. On n'en à vu aucun voir le jour. Il n'y à aucune communications bien que ils disent s'améliorer sur ce point on ne reçoit toujours pas de mail. En temps que étudiant tu dois envoyer 5 mails à 5 personnes différente et les relancer tout les jours pendant une semaine pour avoir enfin l'information qu'ils sont censé nous fournir sans avoir à la demander. L'école est une sous branche de "42 consulting" puisque c'est eux qui gèrent tout les dossiers et les entrées d'argent. 6800 euros pour n'avoir que 1/3 des cours dispensés c'est honteux et en plus le niveau des cours dispensé est très faible, en effet je n'ai rien appris de nouveaux en deuxième année. Le mot d'ordre est toujours argent puisque le tarif de réinscription est passé à 9600 euros pour un an. à fuire d'autre écoles proposent mieux pour moins cher. Les partenaires pour trouver une alternances ne propose pas d'offres en rapport avec le programme pédagogique initial et il n'y a que 4 offres rien de nouveau depuis 2 mois. Le programme pédagogique à changé 5 fois cette année dans ma promotion sans que je n'en sois informé une seul fois, le diplôme à aussi changé sans nous informer. Ecole ARNAQUEUSE A FUIRE !
+             </span>
+            </div>
+            <span class="commentVote">
+            </span>
+            <ul class="addthis_buttons addthis_share">
+             <li>
+              <a class="addthis_button_facebook" data-addthis-description="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/93758788" title="Partager sur Facebook">
+               <img alt="Partager sur Facebook" src="/bundles/common/images/ico_addthis_facebook.png?cb8fc3d7"/>
+              </a>
+             </li>
+             <li>
+              <a class="addthis_button_twitter" data-addthis-title="ESTIAM est elle une école recommandable ? via @openclassrooms" data-addthis-url="https://openclassrooms.com/forum/sujet/estiam-est-elle-une-ecole-recommandable/93758788" title="Partager sur Twitter">
+               <img alt="Partager sur Twitter" src="/bundles/common/images/ico_addthis_twitter.png?cb8fc3d7"/>
+              </a>
+             </li>
+            </ul>
+           </div>
+          </div>
+          <div class="span12">
+          </div>
+         </div>
+        </section>
+        <div class="message" id="newComment">
+         <h2>
+          ESTIAM est elle une école recommandable ?
+         </h2>
+         <div class="alert alert-info">
+          <a class="close" data-dismiss="alert">
+           ×
+          </a>
+          Après avoir cliqué sur "Répondre" vous serez invité à vous connecter pour que votre message soit publié.
+         </div>
+         <form action="/fr/message/creer/estiam-est-elle-une-ecole-recommandable" method="post">
+          <div class="js-wysiwyg-content wysiwyg-content wysiwygContent">
+           <textarea class="tinymce" data-theme="simple" id="Comment_wysiwyg_message" name="Comment[wysiwyg][message]" placeholder="Rédigez votre message ici" required="required"></textarea>
+           <input class="writingType" id="Comment_wysiwyg" name="Comment[wysiwyg][writingType]" type="hidden" value="editor"/>
+           <ul class="writingTypeSwitch">
+            <li class="switchEditeur">
+             Editeur
+             <span class="ball" style="font-size:5px">
+              ●
+             </span>
+            </li>
+            <li class="switchMarkdown inactive">
+             Markdown
+            </li>
+           </ul>
+           <p class="information infoMarkdown" style="display: none;float:left;">
+            Vous pouvez rédiger votre message en
+            <a href="/fr/courses/1304236-redigez-en-markdown" target="_blank">
+             Markdown
+            </a>
+            ou en HTML uniquement.
+           </p>
+          </div>
+          <input id="Comment__token" name="Comment[_token]" type="hidden" value="US7ISuburP8iOzQABlbdmg1Xe3pkCtwU-s8QzLdSl-4"/>
+          <input class="btn btn-primary" name="submit_comment" type="submit" value="Répondre"/>
+          <input class="btn showMarkdownOverview" type="button" value="Aperçu"/>
+         </form>
+        </div>
+        <div class="modal" id="deleteActionModal" style="display:none;">
+         <div class="modal-header">
+          <a class="close" data-dismiss="modal">
+           ×
+          </a>
+          <span class="actionIcon iconModerer">
+           ×
+          </span>
+          <h2>
+           Supprimer
+          </h2>
+         </div>
+         <div class="modal-body modal-body-hidden modal-delete">
+          <p class="messageDelete">
+          </p>
+          <div class="modal-footer">
+           <p>
+            Vous n'avez pas les droits suffisant pour supprimer ce sujet !
+           </p>
+          </div>
+         </div>
+        </div>
+        <div class="modal" id="moderateActionModal" style="display:none;">
+         <div class="modal-header">
+          <a class="close" data-dismiss="modal">
+           ×
+          </a>
+          <span class="actionIcon iconModerer">
+           ×
+          </span>
+          <h2>
+           Modérer
+          </h2>
+         </div>
+         <div class="modal-body">
+          <ul>
+          </ul>
+         </div>
+        </div>
+        <div class="modal" id="alertActionModal" style="display:none;">
+         <div class="modal-header">
+          <a class="close" data-dismiss="modal">
+           ×
+          </a>
+          <h2>
+           Signaler le message aux modérateurs
+          </h2>
+         </div>
+         <div class="modal-body modal-alert">
+          <form action="#" method="post">
+           <div>
+            <label class="required" for="alert_reason">
+             Raison :
+            </label>
+            <input id="alert_reason" name="alert[reason]" required="required" type="text"/>
+           </div>
+           <input id="alert__token" name="alert[_token]" type="hidden" value="hlGV7nSVI1QxcJF8ET35C0HBttebU4eNkwvhQ6iJuYY"/>
+           <div class="error">
+           </div>
+           <div class="modal-footer">
+            <input class="btn btn-primary" type="submit" value="Valider"/>
+            <input class="btn" data-dismiss="modal" type="button" value="Annuler"/>
+           </div>
+          </form>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </section>
+   </section>
+  </div>
+  <div id="footerWrapper">
+   <footer class="oc-footerSkeleton" id="footer">
+    <hr style="margin-bottom: 8px"/>
+    <div class="grid-wrapper">
+     <div class="grid-inner">
+      <div class="oc-footerSkeleton__container">
+       <div class="oc-footerSkeleton__item">
+        <div class="oc-footerSkeleton__itemTitle">
+         <span class="skeleton" style="height: 20px; width: 80%">
+         </span>
+        </div>
+        <ul class="oc-footerSkeleton__linksList">
+         <li class="oc-footerSkeleton__linksListItem">
+          <p>
+           <a tabindex="inherit">
+            <span class="skeleton" style="height: 14px; width: 70%">
+            </span>
+           </a>
+          </p>
+         </li>
+         <li class="oc-footerSkeleton__linksListItem">
+          <p>
+           <a tabindex="inherit">
+            <span class="skeleton" style="height: 14px; width: 60%">
+            </span>
+           </a>
+          </p>
+         </li>
+         <li class="oc-footerSkeleton__linksListItem">
+          <p>
+           <a tabindex="inherit">
+            <span class="skeleton" style="height: 14px; width: 65%">
+            </span>
+           </a>
+          </p>
+         </li>
+         <li class="oc-footerSkeleton__linksListItem">
+          <p>
+           <a tabindex="inherit">
+            <span class="skeleton" style="height: 14px; width: 40%">
+            </span>
+           </a>
+          </p>
+         </li>
+        </ul>
+       </div>
+       <div class="oc-footerSkeleton__item">
+        <div class="oc-footerSkeleton__itemTitle">
+         <span class="skeleton" style="height: 20px; width: 85%">
+         </span>
+        </div>
+        <ul class="oc-footerSkeleton__linksList">
+         <li class="oc-footerSkeleton__linksListItem">
+          <p>
+           <a tabindex="inherit">
+            <span class="skeleton" style="height: 14px; width: 40%">
+            </span>
+           </a>
+          </p>
+         </li>
+         <li class="oc-footerSkeleton__linksListItem">
+          <p>
+           <a tabindex="inherit">
+            <span class="skeleton" style="height: 14px; width: 60%">
+            </span>
+           </a>
+          </p>
+         </li>
+        </ul>
+       </div>
+       <div class="oc-footerSkeleton__item">
+        <div class="oc-footerSkeleton__itemTitle">
+         <span class="skeleton" style="height: 20px; width: 75%">
+         </span>
+        </div>
+        <ul class="oc-footerSkeleton__linksList">
+         <li class="oc-footerSkeleton__linksListItem">
+          <p>
+           <a tabindex="inherit">
+            <span class="skeleton" style="height: 14px; width: 65%">
+            </span>
+           </a>
+          </p>
+         </li>
+         <li class="oc-footerSkeleton__linksListItem">
+          <p>
+           <a tabindex="inherit">
+            <span class="skeleton" style="height: 14px; width: 40%">
+            </span>
+           </a>
+          </p>
+         </li>
+         <li class="oc-footerSkeleton__linksListItem">
+          <p>
+           <a tabindex="inherit">
+            <span class="skeleton" style="height: 14px; width: 50%">
+            </span>
+           </a>
+          </p>
+         </li>
+         <li class="oc-footerSkeleton__linksListItem">
+          <p>
+           <a tabindex="inherit">
+            <span class="skeleton" style="height: 14px; width: 40%">
+            </span>
+           </a>
+          </p>
+         </li>
+        </ul>
+       </div>
+       <div class="oc-footerSkeleton__item">
+        <span class="skeleton" style="height: 25px; width: 65%">
+        </span>
+        <div class="oc-footerSkeleton__socialButtonWrapper">
+         <div>
+          <span class="skeleton skeleton--round" style="width: 40px; height: 40px">
+          </span>
+         </div>
+         <div>
+          <span class="skeleton skeleton--round" style="width: 40px; height: 40px;">
+          </span>
+         </div>
+         <div>
+          <span class="skeleton skeleton--round" style="width: 40px; height: 40px;">
+          </span>
+         </div>
+         <div>
+          <span class="skeleton skeleton--round" style="width: 40px; height: 40px;">
+          </span>
+         </div>
+         <div>
+          <span class="skeleton skeleton--round" style="width: 40px; height: 40px;">
+          </span>
+         </div>
+        </div>
+        <div>
+         <span class="skeleton skeleton--width50" style="height: 40px;">
+         </span>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </footer>
+  </div>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML" type="text/javascript">
+  </script>
+  <script type="text/x-mathjax-config">
+   MathJax.Hub.Config({
+                tex2jax: {
+                    inlineMath: [['\\(','\\)']],
+                    displayMath: [['$$','$$'], ['\\[','\\]']],
+                    skipTags: ["script","noscript","style","textarea","code"]
+                }
+            });
+  </script>
+  <script src="/js/legacy-v4.js?v=3" type="text/javascript">
+  </script>
+  <script src="/bundles/tinymce/vendor/tiny_mce/tiny_mce.js?cb8fc3d7" type="text/javascript">
+  </script>
+  <script src="/bundles/tinymce/js/ready.min-691131b1.js" type="text/javascript">
+  </script>
+  <script src="/bundles/tinymce/js/init.standard-cc605808.js" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   //<![CDATA[
+    initTinyMCE({"include_jquery":false,"textarea_class":"tinymce","theme":{"tiny":{"theme":"advanced","skin":"sdz","valid_elements":"strong\/b,em\/i,a[href|target|title]","theme_advanced_buttons1":"bold,italic,link","theme_advanced_buttons2":"","theme_advanced_buttons3":"","theme_advanced_toolbar_location":"top","theme_advanced_toolbar_align":"left","theme_advanced_statusbar_location":"bottom","theme_advanced_blockformats":"p,h1,h2,h3","plugins":"inlinepopups","language":"fr","forced_root_block":false,"force_br_newlines":false,"force_p_newlines":false,"entity_encoding":"raw","gecko_spellcheck":true},"simple":{"theme":"advanced","skin":"sdz","theme_advanced_buttons1":"formatselect,fontsizeselect,bold,italic,forecolor,bullist,link,image,syntaxhl,emotions","theme_advanced_buttons2":"","theme_advanced_buttons3":"","theme_advanced_toolbar_location":"top","theme_advanced_toolbar_align":"left","theme_advanced_statusbar_location":"bottom","theme_advanced_blockformats":"p,h1,h2,h3","plugins":"syntaxhl, emotions, inlinepopups, autolink","language":"fr","forced_root_block":false,"force_br_newlines":false,"force_p_newlines":true,"entity_encoding":"raw","gecko_spellcheck":true},"claire":{"theme":"advanced","skin":"claire","theme_advanced_buttons1":"formatselect,bullist,numlist,elementlist,kbd,syntaxhl,sdzcode,image,table,blockquote,bold,italic,link,sdzinfo,sdzwarning,sdzerror,sdzquestion,abbr,acronym,emotions,code","theme_advanced_buttons2":"","theme_advanced_buttons3":"","theme_advanced_toolbar_location":"top","theme_advanced_toolbar_align":"left","theme_advanced_statusbar_location":"bottom","height":"250","plugins":"resize, syntaxhl, advlink, xhtmlxtras, emotions, inlinepopups, elementlist,  kbd, sdzcode, table, sdzinfo, sdzwarning, sdzerror, sdzquestion","theme_advanced_blockformats":"p,h2,h3","extended_valid_elements":"article,section,figure,aside,pre","language":"fr","force_br_newlines":false,"force_p_newlines":true,"entity_encoding":"raw"},"strict":{"theme":"advanced","valid_styles":"color,font-size,font-weight,font-style,text-decoration","skin":"sdz","theme_advanced_buttons1":"formatselect,fontsizeselect,bold,italic,forecolor,bullist,link,image,syntaxhl,emotions","theme_advanced_buttons2":"","theme_advanced_buttons3":"","theme_advanced_toolbar_location":"top","theme_advanced_toolbar_align":"left","theme_advanced_statusbar_location":"bottom","theme_advanced_blockformats":"p,h1,h2,h3","plugins":"syntaxhl, emotions, inlinepopups","language":"fr","forced_root_block":false,"force_br_newlines":false,"force_p_newlines":true,"entity_encoding":"raw","gecko_spellcheck":true},"advanced":{"theme":"advanced","plugins":"syntaxhl,pagebreak,style,layer,table,save,advhr,advimage,advlink,emotions,iespell,inlinepopups,insertdatetime,preview,media,searchreplace,print,contextmenu,paste,directionality,fullscreen,noneditable,visualchars,nonbreaking,xhtmlxtras,template","theme_advanced_buttons1":"syntaxhl,|save,newdocument,|,bold,italic,underline,strikethrough,|,justifyleft,justifycenter,justifyright,justifyfull,styleselect,formatselect,fontselect,fontsizeselect","theme_advanced_buttons2":"cut,copy,paste,pastetext,pasteword,|,search,replace,|,bullist,numlist,|,outdent,indent,blockquote,|,undo,redo,|,link,unlink,anchor,image,cleanup,help,code,|,insertdate,inserttime,preview,|,forecolor,backcolor","theme_advanced_buttons3":"tablecontrols,|,hr,removeformat,visualaid,|,sub,sup,|,charmap,emotions,iespell,media,advhr,|,print,|,ltr,rtl,|,fullscreen","theme_advanced_buttons4":"insertlayer,moveforward,movebackward,absolute,|,styleprops,|,cite,abbr,acronym,del,ins,attribs,|,visualchars,nonbreaking,template,pagebreak","theme_advanced_toolbar_location":"top","theme_advanced_toolbar_align":"left","theme_advanced_statusbar_location":"bottom","theme_advanced_resizing":true,"remove_linebreaks":false,"language":"fr","gecko_spellcheck":true}},"tinymce_jquery":false,"jquery_script_url":"\/bundles\/tinymce\/vendor\/tiny_mce\/tiny_mce.js?cb8fc3d7"});
+//]]>
+  </script>
+  <script type="text/javascript">
+   _old$('.lastUnreadComment').tooltip({title: 'Dernier message non lu', placement: "bottom"});
+  </script>
+  <script type="text/javascript">
+   var contentTmp = new Array();
+var lockEdit = false;
+textareaContent = _old$('#newComment').find('textarea');
+wysiwygContent = _old$('#newComment').find('.wysiwygContent');
+currentFocus = {};
+if(_old$('.writingType').val() == 'markdown') {
+    currentFocus.editorId = null;
+}
+else {
+    currentFocus.editorId = 1;
+}
+
+_old$('.tinymce').live('click', function(e){
+    _old$(this).focus();
+    currentFocus = _old$(this);
+    textareaContent = _old$(this);
+});
+
+_old$("a.editAction").live('click',function(e){
+    // No event
+    e.preventDefault();
+
+    if (_old$(this).parents('.comment').find('.message form').length == 0 && lockEdit == false)
+    {
+        if(_old$(this).closest('#actionsAdmin').length != 0)
+        {
+            _old$('section.comments div.row:first-child a.editAction').click();
+        }
+        else
+        {
+            lockEdit = true;
+
+            var el = _old$(this);
+            var divContent = el.parents('.comment').find('.content');
+            divContent.find('.addthis_share').hide();
+            contentTmp[el.parents('.comment').attr('id')] = el.parents('.comment').find('.content').html();
+
+            ajax(el.attr('href'), 'GET', null, function(result){
+                if(el.closest('.badVotes'))
+                {
+                    el.closest('.badVotes').find('.avatar img').hide();
+                }
+
+                divContent.html(result);
+                var addThis = divContent.find('.addthis_share');
+                addThis.addClass('off').hide();
+
+                el.closest('.row').find('.message').show();
+                lockEdit = false;
+
+                // Add wysiwyg or switch to markdown
+                updateTextareaDisplay(divContent);
+                sendImage();
+
+                if(el.closest('.row').find('.mceEditor').length != 0) {
+                  tinyMCE.activeEditor.focus();
+                  tinyMCE.activeEditor.selection.setContent('\n');
+                  currentFocus = tinyMCE.activeEditor;
+                }
+                else {
+                  el.closest('.row').find('.message form textarea').focus();
+                  currentFocus = el.closest('.row').find('.message form textarea');
+                }
+
+                wysiwygContent = el.closest('.row').find('.message form .wysiwygContent');
+                textareaContent = el.closest('.row').find('.message form textarea');
+            });
+        }
+    }
+    else
+    {
+        if(_old$(this).closest('.row').find('.mceEditor').length != 0) {
+          tinyMCE.activeEditor.focus();
+          tinyMCE.activeEditor.selection.setContent('');
+          currentFocus = tinyMCE.activeEditor;
+        }
+        else {
+          _old$(this).closest('.row').find('.message form textarea').focus();
+          currentFocus = _old$(this).closest('.row').find('.message form textarea');
+        }
+
+        wysiwygContent = _old$(this).closest('.row').find('.message form .wysiwygContent');
+        textareaContent = _old$(this).closest('.row').find('.message form textarea');
+    }
+});
+
+_old$(".comment .message form input.btn-reset").live('click',function(e){
+    e.preventDefault();
+
+    var divContent = _old$(this).closest('.comment').find('.content');
+
+    // Remove wysiwyg
+    if(divContent.find('.writingType').val() == 'editor')
+    {
+        tinyMCE.execCommand('mceRemoveControl', false, divContent.find('textarea.tinymce').attr('id'));
+    }
+
+    divContent.html(contentTmp[_old$(this).parents('.comment').attr('id')]);
+
+    _old$("ul.actions").hide();
+});
+
+_old$(".comment .message form").live('submit',function(e){
+    if(_old$(this).hasClass('markdownWrap'))
+    {
+        return true;
+    }
+
+    e.preventDefault();
+    var el = _old$(this);
+    var divContent = el.parents('.comment').find('.content');
+
+    ajax(el.attr('action'), 'POST', el.serialize(), function(result){
+        var isThread = (_old$('#ThreadForum_title').size() > 0);
+        if(isThread && result.substr(0, 1) == '/') {
+            window.location = result;
+        }
+        else {
+            divContent.html(result);
+
+            // Add wysiwyg or switch to markdown
+            updateTextareaDisplay(divContent);
+
+            applyTooltip();
+
+            //Updates HTML content not hightlighted
+            updateContent(divContent.find('.markdown-body'));
+            SyntaxHighlighter.highlight();
+        }
+    });
+});
+
+_old$("a.citeAction").live('click',function(e){
+    // No event
+    e.preventDefault();
+
+    // Find textarea object
+    var textarea = textareaContent;
+    var divContent = wysiwygContent;
+
+    // Author
+    var author = $.trim(_old$(this).parents('.row').find('.author a').html());
+
+
+    // If wysiwyg is ON / OFF
+    if (currentFocus.editorId == null)
+    {
+        // Replace
+        var val = $.trim(_old$(this).parents('.comment').find('.markdown').html());
+
+        val = val.replace(/&amp;/g, "&");
+        val = val.replace(/&lt;/g, "<");
+        val = val.replace(/&gt;/g, ">");
+        val = val.replace(/\n/g, "\n> ");
+        val = val.replace(/\r/g, "\r> ");
+        var texte = '**'+author+' a écrit:**\n> '+val+'\n\n';
+
+        textarea.val(textarea.val()+((isTextareaEmpty(divContent,false)) ? '' : '\n\n')+texte);
+        textarea.focus();
+        switchMenuDisplay(textarea.attr('id'));
+    }
+    else
+    {
+        // Replace
+        var val = $.trim(contents[_old$(this).parents('.comment').attr('id')]);
+
+        var texte = '<p><strong>'+author+' a écrit:</strong></p><blockquote>'+val+'</blockquote>';
+
+        textarea.parents('div').append('<a class="focusWys" href="#" >&nbsp;</a>');
+        _old$('.focusWys').click();
+        _old$('.focusWys').focus();
+        _old$('.focusWys').remove();
+        tinyMCE.activeEditor.selection.setContent(texte);
+        $content = tinyMCE.activeEditor.getContent();
+        tinyMCE.activeEditor.setContent($content+'<br><br>');
+        tinyMCE.activeEditor.focus();
+    }
+});
+  </script>
+  <script type="text/javascript">
+   function hideTooltip()
+{
+}
+
+function applyTooltip()
+{
+}
+
+function hideVoteInfo()
+{
+    _old$('.voteInfo').fadeOut("slow");
+}
+
+
+_old$(document).ready(function() {
+
+    var isVoting = false;
+    var nbVotesMin = parseInt('10');
+
+    _old$('section.comments .row').hover(function(){
+        _old$(this).find('ul.actions').show();
+        if(!_old$(this).find('ul.addthis_share').hasClass('off'))
+        {
+            _old$(this).find('ul.addthis_share').show();
+        }
+
+        _old$(this).find('span.commentVote .noVote').css('visibility','visible');
+    },function(){
+        _old$(this).find('ul.actions').hide();
+        _old$(this).find('ul.addthis_share').hide();
+        _old$(this).find('span.commentVote .noVote').css('visibility','hidden');
+    });
+
+    _old$('.comment .toggleMessage').live("click",function(e){
+       e.preventDefault();
+
+       _old$(this).closest('.content').find('.message').toggle('fast');
+       _old$(this).closest('div.row').find('.avatar img').toggle();
+
+       if(_old$(this).hasClass('messageOpen'))
+       {
+           _old$(this).removeClass('messageOpen');
+           _old$(this).html('Lire quand même<span class="toggleArrow"></span>');
+       }
+       else
+       {
+           _old$(this).addClass('messageOpen');
+           _old$(this).html('Masquer le message<span class="toggleArrow"></span>');
+       }
+    });
+
+    applyTooltip();
+
+    _old$('a.voteUpAction, a.voteDownAction').live('click',function(e){
+        // No event
+        e.preventDefault();
+
+        if(!isVoting)
+        {
+            isVoting = true;
+            var element = _old$(this);
+            var commentBloc = element.closest('div.row');
+
+            ajax(element.attr('href'), 'GET', null, function(result){
+                element.parents('.commentVote').html(result);
+                hideTooltip();
+                applyTooltip();
+                isVoteUtile(commentBloc);
+                isVoting = false;
+                setTimeout(hideVoteInfo, 5000);
+            });
+        }
+
+    });
+
+
+
+    _old$('a.deleteThread').click(function(){
+       if(!confirm("Etes-vous sûr de vouloir supprimer ce MP ?"))
+       {
+           return false;
+       }
+    });
+
+    function isVoteUtile(commentBloc)
+    {
+        var nbVoteUp = (commentBloc.find('.votePlus').html() != '') ? parseInt(commentBloc.find('.votePlus').html()) : 0;
+        var nbVoteDown = (commentBloc.find('.voteMoins').html() != '') ? Math.abs(parseInt(commentBloc.find('.voteMoins').html())) : 0;
+
+        if(nbVoteUp > nbVotesMin && nbVoteDown <= (nbVoteUp / 2))
+        {
+            commentBloc.addClass('topVotes');
+        }
+        else if(false && nbVoteDown > nbVotesMin && nbVoteUp <= (nbVoteDown / 2))
+        {
+            commentBloc.addClass('badVotes');
+        }
+        else
+        {
+            commentBloc.removeClass('topVotes');
+            commentBloc.removeClass('badVotes');
+            commentBloc.find('.message').show();
+            commentBloc.find('.avatar img').show();
+        }
+    }
+
+
+    _old$('p#follow a, p#notFollow a').live('click', function(e){
+        // No event
+        e.preventDefault();
+        var element = _old$(this);
+
+        if(!element.hasClass('loading'))
+        {
+            _old$('.followInfo').hide();
+            element.addClass('loading');
+            ajax(element.attr('href'), 'GET', null, function(result){
+                element.removeClass('loading');
+                element.parent().removeClass('active');
+                if(element.parent().attr('id') == 'follow')
+                {
+                    // remove Follow
+                    _old$('p#notFollow').addClass('active');
+                }
+
+                if(element.parent().attr('id') == 'notFollow')
+                {
+                    // add Follow
+                    _old$('p#follow').addClass('active');
+                }
+
+                _old$('.followInfo').show();
+                setTimeout(function(){_old$('.followInfo').fadeOut('slow');},5000);
+            });
+         }
+
+    });
+});
+  </script>
+  <script type="text/javascript">
+   jQuery.fn.extend({
+        insertAtCaret: function(myValue){
+        return this.each(function(i) {
+            if (document.selection) {
+                //For browsers like Internet Explorer
+                this.focus();
+                sel = document.selection.createRange();
+                sel.text = myValue;
+                this.focus();
+            }
+            else if (this.selectionStart || this.selectionStart == '0') {
+                //For browsers like Firefox and Webkit based
+                var startPos = this.selectionStart;
+                var endPos = this.selectionEnd;
+                if(startPos == '0'){
+                    endPos = startPos = this.value.length;
+                }
+                var scrollTop = this.scrollTop;
+                this.value = this.value.substring(0, startPos)+myValue+this.value.substring(endPos,this.value.length);
+                this.focus();
+                this.selectionStart = startPos + myValue.length;
+                this.selectionEnd = startPos + myValue.length;
+                this.scrollTop = scrollTop;
+            } else {
+                this.value += myValue;
+                this.focus();
+            }
+        })
+        }
+    });
+
+    function uploadReturn(returnCode, returnTxt){
+        var loading = activeTextarea.closest('form').find('span.loading');
+        loading.hide();
+        var wrapError = activeTextarea.closest('form').find('span.error');
+        if(returnCode){
+            activeTextarea.insertAtCaret('![]('+returnTxt+')');
+            wrapError.html('');
+        }
+        else{
+            wrapError.html(returnTxt);
+        }
+        _old$('div.uploadMarkdownSource input[type=file]').removeAttr('disabled');
+    }
+
+    // Updates switch menu display
+    _old$('.writingTypeSwitch').each(function(){
+        switchMenuDisplay(_old$(this).closest('.wysiwygContent').find('textarea.tinymce').attr('id'));
+    });
+
+    _old$('div.uploadMarkdownSource a').on('click', function(e){
+        e.preventDefault();
+        _old$(this).next().click();
+    });
+
+    var activeTextarea = null;
+    function sendImage(){
+        _old$('div.uploadMarkdownSource input[type=file]').unbind('change');
+        _old$('div.uploadMarkdownSource input[type=file]').change(function(){
+
+            // preparation de l'iframe async si inexistante
+            if(_old$('#uploadFrame').length<1)
+                _old$('<iframe id="uploadFrame" name="uploadFrame" src="#" style="display:none"></iframe>').appendTo('body');
+
+            var parentForm = _old$(this).closest('form');
+            activeTextarea = parentForm.find('textarea');
+
+            var loading = activeTextarea.closest('form').find('span.loading');
+            loading.css('display', 'inline-block');
+
+            var wrapError = activeTextarea.closest('form').find('span.error');
+            wrapError.html('');
+
+            var parentNode = _old$(this).parent();
+            var parentNodeClone = parentNode.clone(true).insertAfter(parentNode);
+            parentNodeClone.children('input').val('');
+
+            // deplacement du champ input dans un nouveau form pour upload
+            _old$('<form target="uploadFrame" action="/img/upload" method="post" class="markdownWrap" enctype="multipart/form-data" >').append(parentNode).insertAfter(parentForm);
+            _old$('form.markdownWrap').submit().remove();
+
+            _old$('div.uploadMarkdownSource input[type=file]').attr('disabled', 'disabled');
+
+        });
+    }
+    sendImage();
+
+    _old$('.switchMarkdown').on('click',function(){
+
+        var divContent = _old$(this).closest('.wysiwygContent');
+
+        if(isTextareaEmpty(divContent,true) && _old$(this).hasClass('inactive'))
+        {
+            switchToMarkdown(divContent);
+
+            divContent.find('.writingType').val('markdown');
+            // Remove wysiwyg
+            tinyMCE.execCommand('mceRemoveControl', false, divContent.find('textarea').attr('id'));
+
+            divContent.find('textarea').focus();
+            currentFocus = divContent.find('textarea');
+            wysiwygContent = divContent.find('.wysiwygContent');
+            textareaContent = divContent.find('textarea');
+        }
+    });
+
+    _old$('.switchEditeur').on('click',function(){
+        var divContent = _old$(this).closest('.wysiwygContent');
+
+        if(isTextareaEmpty(divContent,true) && _old$(this).hasClass('inactive'))
+        {
+            _old$(this).removeClass('inactive');
+
+            divContent.find('.uploadMarkdownSource').hide();
+            divContent.find('.switchMarkdown').addClass('inactive');
+            // Hide mardown info, overview button and overview
+            divContent.find('.infoMarkdown').hide();
+            divContent.parent().find('.showMarkdownOverview').hide();
+            if(divContent.parent().find('.markdownOverview').length > 0)
+            {
+                divContent.parent().find('.markdownOverview').remove();
+            }
+
+            divContent.find('.writingType').val('editor');
+            // Add wysiwyg
+            addWysiwyg(divContent.find('textarea').attr('id'), divContent.find('textarea').hasClass('error'));
+            divContent.find('textarea').removeAttr('required');
+
+            wysiwygContent = divContent.find('.wysiwygContent');
+            textareaContent = divContent.find('textarea');
+        }
+    });
+
+    // Display menu update when content changes
+    _old$('.wysiwygContent textarea').on('keyup',function(){
+        switchMenuDisplay(_old$(this).attr('id'));
+    });
+
+    // Mardown overview
+    var lockOverview = false;
+
+    _old$('.showMarkdownOverview').on('click',function(){
+        var overviewButton = _old$(this);
+        var parent = overviewButton.closest('form');
+        var textarea = parent.find('.wysiwygContent textarea.tinymce');
+        if(lockOverview == false)
+        {
+            lockOverview = true;
+            // Disables textarea and overview button
+            textarea.attr('disabled', 'disabled');
+            overviewButton.attr('disabled', 'disabled');
+            // Gets purified content
+            ajax('/fr/apercu', 'POST', {content: textarea.val()}, function(result){
+                // Replaces div content if exists or adds div
+                if( parent.find('.markdownOverview').length > 0)
+                {
+                    parent.find('.markdownOverview').html(result);
+                }
+                else
+                {
+                    parent.append('<div class="markdownOverview comment">' + result + '</div>');
+                }
+                // Enables textarea and overview button
+                textarea.removeAttr('disabled');
+                overviewButton.removeAttr('disabled');
+                SyntaxHighlighter.highlight();
+                lockOverview = false;
+            });
+        }
+    });
+
+    // Display markdown info, overview button and updates switch classes
+    function switchToMarkdown(divContent)
+    {
+        divContent.find('.infoMarkdown').show();
+        divContent.parent().find('.showMarkdownOverview').show();
+        divContent.find('.switchEditeur').addClass('inactive');
+        divContent.find('.switchMarkdown').removeClass('inactive');
+        divContent.find('.uploadMarkdownSource').show();
+    }
+
+    // Updates writing type menu display
+    function switchMenuDisplay(id)
+    {
+        var divContent = _old$('#'+id).closest('.wysiwygContent');
+        var writingTypeSwitch = divContent.find('.writingTypeSwitch');
+
+        if(writingTypeSwitch.length > 0)
+        {
+            if(!writingTypeSwitch.is(':hidden') && !isTextareaEmpty(divContent,false))
+            {
+                writingTypeSwitch.hide();
+            }
+
+            if(writingTypeSwitch.is(':hidden') && isTextareaEmpty(divContent,false))
+            {
+                writingTypeSwitch.show();
+            }
+        }
+        if(writingTypeSwitch.hasClass('prefill'))
+        {
+            writingTypeSwitch.removeClass('prefill');
+            writingTypeSwitch.show();
+        }
+    }
+
+    // Retrieves if texterea is empty or not, with optionaly an alert message
+    function isTextareaEmpty(divContent, withMessage)
+    {
+        // if wysiwyg
+        if(divContent.find('.mceEditor').length > 0)
+        {
+            tinyMCE.execCommand('mceFocus', false, divContent.find('textarea').attr('id'));
+
+            if(tinyMCE.activeEditor.getContent() == '')
+            {
+                return true;
+            }
+        }
+        // if markdown
+        else if(divContent.find('textarea').val() == "")
+        {
+            return true;
+        }
+
+        if(withMessage)
+        {
+            alert("Vous ne pouvez plus changer de mode après avoir commencé à rédiger");
+        }
+
+        return false;
+    }
+
+    // Add wysiwyg or switch to markdown
+    function updateTextareaDisplay(divContent)
+    {
+        if(divContent.find('.writingType').val() == 'editor')
+        {
+            var textarea = divContent.find('textarea.tinymce');
+            tinyMCE.execCommand('mceRemoveControl', false, textarea.attr('id'));
+            addWysiwyg(textarea.attr('id'), textarea.hasClass('error'));
+        }
+        else
+        {
+            switchToMarkdown(divContent);
+        }
+    }
+  </script>
+  <script type="text/javascript">
+   _old$(document).ready(function(){
+
+    // Open Modal
+    _old$('.moderateAction').click(function(e){
+
+        // Set message
+        if (_old$(this).hasClass('moderateActionAll'))
+        {
+            _old$('.modal-delete .messageDelete').html('Êtes-vous sûr de vouloir supprimer le sujet et TOUTES ses réponses ?')
+        }
+        else
+        {
+            _old$('.modal-delete .messageDelete').html('Attention vous allez supprimer définitivement ce message, êtes-vous sûr ?')
+        }
+
+        // Set action delete and moderate
+        _old$('.modal-delete form').attr('action', _old$(this).attr('data-simpleit-delete'));
+        _old$('.modal-moderate form').attr('action', _old$(this).attr('data-simpleit-moderate'));
+
+        // Alert
+        if(_old$(this).attr('data-simpleit-alert') == "true")
+        {
+            _old$('#alertAtClosed').show();
+        }
+        else
+        {
+            _old$('#alertAtClosed').hide();
+        }
+
+        // Set other reason behavior
+        if (_old$('#basicModerateReason select').val() == '8')
+        {
+            _old$('#otherModerateReason input').show();
+        }
+
+        // Open this
+        _old$('#moderateActionModal').fadeIn();
+    });
+
+    // Fixes anchor
+    _old$('.btn-action-desactivate').live('click', function(e){e.preventDefault();});
+
+    // Manage button
+    _old$('.btn-action-activate').live('click', function(e){
+
+        e.preventDefault();
+        _old$('.btn-action-desactivate').addClass('btn-action-activate');
+        _old$('.btn-action-desactivate').removeClass('btn-action-desactivate');
+        _old$(this).addClass('btn-action-desactivate');
+        _old$(this).removeClass('btn-action-activate');
+        _old$('.modal-body-hidden').hide();
+        _old$('.'+_old$(this).attr('data-simpleit-show')).fadeIn();
+
+    });
+
+    // Manage field hidden other reason
+    _old$('#basicModerateReason select').live('change', function(e){
+        _old$('#otherModerateReason input').hide();
+        if (_old$(this).val() == '8')
+        {
+            _old$('#otherModerateReason input').show();
+        }
+    });
+});
+  </script>
+  <script type="text/javascript">
+   _old$('a.alertAction').click(function(){
+        _old$('.modal-alert form').attr('action', _old$(this).attr('data-simpleit-alert'));
+    });
+
+    _old$('.modal-alert input[type=submit]').click(function(e){
+        var error = "";
+
+        var value = _old$('#alert_reason').val();
+
+        if(value == '')
+        {
+            error = 'Veuillez indiquer une raison.';
+        }
+        else if(value.length > 500)
+        {
+            error = 'La raison ne doit pas dépasser 500 caractères.';
+        }
+
+        if(error != '')
+        {
+            e.preventDefault();
+            _old$(this).closest('.modal-alert').find('div.error').html(error);
+        }
+    });
+  </script>
+  <script type="text/javascript">
+   _old$("a.deplacerAction").live('click', function(e){
+    e.preventDefault();
+});
+  </script>
+  <script type="text/javascript">
+   var addthis_config = {"data_track_addressbar": false};
+  </script>
+  <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4fbe47ef2aab77a6" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   _old$(document).ready(function(){
+
+        // Open Modal
+        _old$('.deleteAction').click(function(e){
+
+            // Set message
+            if (_old$(this).hasClass('deleteActionAll'))
+            {
+                _old$('.modal-delete .messageDelete').html('Êtes-vous sûr de vouloir supprimer le sujet et TOUTES ses réponses ?')
+            }
+            else
+            {
+                _old$('.modal-delete .messageDelete').html('Attention vous allez supprimer définitivement ce message, êtes-vous sûr ?')
+            }
+
+            // Set action delete
+            _old$('.modal-delete form').attr('action', _old$(this).attr('data-simpleit-delete'));
+
+            // Alert
+            if(_old$(this).attr('data-simpleit-alert') == "true")
+            {
+                _old$('#alertAtClosed').show();
+            }
+            else
+            {
+                _old$('#alertAtClosed').hide();
+            }
+
+            // Open this
+            _old$('#deleteActionModal').fadeIn();
+        });
+
+        // Fixes anchor
+        _old$('.btn-action-desactivate').live('click', function(e){e.preventDefault();});
+
+        // Manage button
+        _old$('.btn-action-activate').live('click', function(e){
+
+            e.preventDefault();
+            _old$('.btn-action-desactivate').addClass('btn-action-activate');
+            _old$('.btn-action-desactivate').removeClass('btn-action-desactivate');
+            _old$(this).addClass('btn-action-desactivate');
+            _old$(this).removeClass('btn-action-activate');
+            _old$('.modal-body-hidden').hide();
+            _old$('.'+_old$(this).attr('data-simpleit-show')).fadeIn();
+
+        });
+    });
+  </script>
+  <script type="text/javascript">
+   function getConsentedSegmentIntegrations() {
+            // getCookie from https://www.w3schools.com/js/js_cookies.asp
+            function getCookie(cname) {
+                var name = cname + "=";
+                var decodedCookie = decodeURIComponent(document.cookie);
+
+                var ca = decodedCookie.split(';');
+                for(var i = 0; i <ca.length; i++) {
+                    var c = ca[i];
+                    while (c.charAt(0) === ' ') {
+                        c = c.substring(1);
+                    }
+                    if (c.indexOf(name) === 0) {
+                        return c.substring(name.length, c.length);
+                    }
+                }
+                return "";
+            }
+
+            var consent = getCookie('cmapi_cookie_privacy');
+
+            function isCookieAllowedByConsent(consent, level) {
+              return !!consent && consent.search(level) !== -1;
+            }
+
+            var isFunctionalCookieAllowed = isCookieAllowedByConsent(consent, 2);
+            var isAdvertisingCookieAllowed = isCookieAllowedByConsent(consent, 3);
+
+            var isAppCuesPremiumUser = false;
+
+            var isOnPoleEmploiPage = !!window && window.location.pathname.includes('partners/pole-emploi/offers');
+
+            return {
+                Amplitude: isFunctionalCookieAllowed,
+                'Bing Ads': isAdvertisingCookieAllowed,
+                'Google Ads': isAdvertisingCookieAllowed,
+                'Google Analytics': isFunctionalCookieAllowed,
+                'Zendesk': isFunctionalCookieAllowed,
+                Appcues: (isAppCuesPremiumUser || isOnPoleEmploiPage) && isFunctionalCookieAllowed,
+            };
+        }
+
+        var consentedSegmentIntegrations = getConsentedSegmentIntegrations();
+
+        !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t,e){var n=document.createElement("script");n.type="text/javascript";n.async=!0;n.src="https://cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(n,a);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.1.0";
+            window.loadAnalytics = function () { window.analytics.load('mou95e6tdn', {integrations: consentedSegmentIntegrations}) };
+        }}();
+  </script>
+  <script>
+   var isPrerender = !!navigator.userAgent.match(/github\.com\/prerender\/prerender/);
+  var preRenderBrowserFakeUa = "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:61.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163 Safari/537.36";
+  var polyfillUrl = "https://cdn.polyfill.io/v3/polyfill.min.js?unknown=polyfill&features=default,es6,IntersectionObserver,Object.values,Array.prototype.includes,Array.prototype.findIndex,Promise.prototype.finally,fetch,Intl.~locale.fr";
+
+    if (isPrerender) {
+    polyfillUrl+= "&ua=" + encodeURIComponent(preRenderBrowserFakeUa);
+  }
+
+  App.scripts.push(polyfillUrl);;
+
+  App.script = {
+    DASHBOARD: 'dashboard',
+    MENTORSHIP_STUDENT_DASHBOARD: 'mentorshipStudentdashboard',
+    SHOP: 'shop',
+    PAYMENT: 'payment',
+    PROJECTS: 'projects',
+    TEAM: 'team',
+    HOME: 'home',
+    COURSE_EDIT: 'course_edit',
+    COURSE_VIEW: 'course_view',
+    ADMIN: 'admin',
+    ADMIN_STUDENT_CREDENTIAL_CREATE: 'adminStudentCredentialCreate',
+    POST_A_JOB: 'postAJob',
+    GIG_WORKERS: 'gigWorkers',
+    JOB_GUARANTEE: 'jobGuarantee',
+    JOB_SURVEY: 'jobSurvey',
+    MCQ_EDIT: 'mcqEdit',
+    MCQ_VIEW: 'mcqView',
+    MENTOR_EDIT: 'mentorEdit',
+    MENTORSHIP_DASHBOARD: 'mentorshipDashboard',
+    MENTORSHIP_SESSION_CREATE: 'mentorshipSessionCreate',
+    MENTORSHIP_SESSION_NON_ASSESSOR_CREATE: 'mentorshipSessionNonAssessorCreate',
+    PATHS: 'paths',
+    PRIVATE_CONVERSATIONS: 'privateConversations',
+    USER_PROFILE: 'userProfile',
+    WELCOME: 'welcome',
+    APPRENTICESHIP: 'apprenticeship',
+    WEBAPP: 'webapp',
+    PROJECTS_ADMIN: 'projectsAdmin',
+    SECURITY: 'security',
+  };
+  </script>
+  <script>
+   App.scripts.push("/js/runtime.f0da46fdfee0ca6d3cd1.js");
+  </script>
+  <script>
+   App.scripts.push("/js/vendors.3c2c21826d22cd94f290.js");
+  </script>
+  <script>
+   App.scripts.push("/js/oc/packages/main.8d55a40d13baf0e9dbaa.js");
+  </script>
+  <script>
+   (function () {
+        function loadScripts(cb) {
+            App.scripts.forEach(function (src, index) {
+                var script = document.createElement('script');
+                script.src = src;
+                script.async = false;
+                document.body.appendChild(script);
+
+                if (cb && index === App.scripts.length - 1) {
+                    script.onload = cb;
+                }
+            });
+        }
+
+        function boot() {
+            loadScripts(function () {
+                if (App.modules) {
+                    App.modules.startAll();
+                }
+            });
+        }
+
+        if (window.addEventListener) {
+            window.addEventListener('load', boot, false);
+        } else if (window.attachEvent) {
+            window.attachEvent('onload', boot);
+        } else {
+            window.onload = boot;
+        }
+    }());
+  </script>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"90dc06697a","applicationID":"20302107","transactionName":"NANaYkJXC0ICAhdYVw1Je0NDQgpcTBULQ10CAn5ZQkMIbhUIBkY=","queueTime":0,"applicationTime":309,"atts":"GERZFApNGEw=","errorBeacon":"bam.nr-data.net","agent":""}
+  </script>
+ </body>
+</html>
