@@ -8,3 +8,4 @@ conda install -c conda-forge googletrans;
 conda install -c conda-forge matplotlib;
 conda install -c anaconda seaborn;
 conda install -c conda-forge textblob;
+conda install -c anaconda beautifulsoup4;
